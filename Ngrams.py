@@ -8,11 +8,13 @@ Created on Mon Jun 29 16:11:56 2020
 
 import textblob as tb
 import io
-import re
 import nltk
 nltk.download('stopwords')
 from nltk.corpus import stopwords
 import sys
+import re
+
+from prepare_functions import *
 
 
 def print_list(lst):
@@ -21,19 +23,6 @@ def print_list(lst):
     print()
     print()
     print()
-
-def remove_urls (vTEXT):
-    return re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b', '', vTEXT, flags=re.MULTILINE)
-
-def get_ngrams(arr, n=2):
-    if len(arr)<n:
-        yield []
-    if len(arr) == n:
-        yield arr
-    
-    for k in range(n,len(arr)+1):
-        yield arr[(k-n):k]
-
 
 
 
@@ -95,7 +84,8 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     sentences = []
     
     for obj in lines:
-        sentences += [str(sent) for sent in tb.TextBlob(obj).sentences] 
+        #sentences += [str(sent) for sent in tb.TextBlob(obj).sentences] 
+        sentences += get_sentences(obj)
     
     if debug:
         print('SPLIT BY SENTENCES')
@@ -103,8 +93,11 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     
     # remove stopwords
     
-    sentences = [' '.join([w for w in s.split() if w not in stopwords.words('english')]) for s in sentences]
-    sentences = [' '.join([w for w in s.split() if w not in stopwords.words('russian')]) for s in sentences]
+    sentences = [' '.join([w for w in s.split() 
+                           if w not in stopwords.words('russian') 
+                           and w not in stopwords.words('english')
+                           and not re.match(r"[\w\d]\.", w)]) # - т. п. 1. 2. 3.
+                 for s in sentences]
     
     if debug:
         print('REMOVE STOP WORDS')
@@ -160,6 +153,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     return ngrams
     
     
+
 if __name__=='__main__':
     
     # 1) read file
@@ -172,4 +166,6 @@ if __name__=='__main__':
     
         
     sys.stdout = original_stdout
+    
+    print_list(g)
         
