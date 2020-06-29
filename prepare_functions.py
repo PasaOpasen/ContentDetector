@@ -49,7 +49,44 @@ def get_sentences(txt):
         return [txt[i:j-1] for i,j in zip_longest([0]+inds[:-1], inds)]
     return [txt]                
         
-        
+
+
+def split_by_words(sentence, words, lst =[]):
+    
+    splitlist = sentence.split()
+    
+    flag = True
+    for word in words:
+        if word in splitlist:
+            #print(word)
+            ind = sentence.index(word)
+            split_by_words(sentence[:ind], words, lst)
+            split_by_words(sentence[ind+len(word):], words,lst)
+            
+            flag = False
+            break
+    if flag:
+        lst.append(sentence)
+
+
+def split_by_words2(sentence, words):
+    """
+    Делает split предложения по stopwords
+    """
+    result = []
+    tmp=[]
+    for w in sentence.split():
+        if w in words and len(tmp)>0:
+            result.append(' '.join(tmp))
+            tmp=[]
+        else: 
+            tmp.append(w)
+    
+    if len(tmp)>0:
+        result.append(' '.join(tmp))
+    
+    return result
+
         
 if __name__ == '__main__':
     
@@ -72,7 +109,15 @@ if __name__ == '__main__':
     
     for u in urls:
         print(f'{u} --> {remove_urls(u)}')
-
+        
+        
+        
+    sentence = 'one two three 4 5 six seven 8 nine'
+    words = ['two', '5','nine']
+    
+    lst = []
+    split_by_words(sentence, words, lst)
+    print(lst)
 
 
 

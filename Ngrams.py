@@ -25,6 +25,10 @@ def print_list(lst):
     print()
 
 
+splitter = stopwords.words('russian') + stopwords.words('english') 
+
+
+
 
 def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
         
@@ -85,7 +89,8 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     
     for obj in lines:
         #sentences += [str(sent) for sent in tb.TextBlob(obj).sentences] 
-        sentences += get_sentences(obj)
+        for sentence in get_sentences(obj): # split by .    
+            sentences +=  split_by_words2(sentence, splitter) # split by stopwords #get_sentences(obj)
     
     if debug:
         print('SPLIT BY SENTENCES')
@@ -94,9 +99,9 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     # remove stopwords
     
     sentences = [' '.join([w for w in s.split() 
-                           if w not in stopwords.words('russian') 
-                           and w not in stopwords.words('english')
-                           and not re.match(r"[\w\d]\.", w)]) # - т. п. 1. 2. 3.
+                           #if w not in splitter 
+                           #and 
+                           if not re.match(r"[\w\d]\.", w)]) # - т. п. 1. 2. 3.
                  for s in sentences]
     
     if debug:
