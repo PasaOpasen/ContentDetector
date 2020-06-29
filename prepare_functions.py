@@ -10,7 +10,7 @@ import re
 
 
 def remove_urls (vTEXT):
-    return re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%)*\b', '', vTEXT, flags=re.MULTILINE)
+    return re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%|-)*', '', vTEXT, flags=re.MULTILINE)
 
 def get_ngrams(arr, n=2):
     """
