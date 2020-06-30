@@ -5,6 +5,7 @@ Created on Sun Jun 28 13:49:31 2020
 @author: qtckp
 """
 import io
+import re
 import time
 import wikipedia
 from detect_functions import levenshtein_distance_better, levenshtein_distance
@@ -79,8 +80,39 @@ def clean_list(arr):
     if len(arr)==0:
         return arr
     
-    res = list(set(arr))
+    res = sorted(list(set(arr)))
     
+    deleted = []
+    
+    reg = r"\d+"
+    
+    for i in range(len(res)-1):
+        for j in range(i+1,len(res)):
+            if i not in deleted and j not in deleted:
+                
+                ri, rj = res[i].lower(), res[j].lower()
+                
+                #print(f"{ri} | {rj}")
+                
+                if ri in re.sub(reg,'', rj).split():# это нужно, чтобы убрать всякие C7 и т. п.
+                    if re.search(reg, rj):
+                        print(f"1) {ri} | {rj}")
+                        deleted.append(j)
+                    else:
+                        print(f"2) {ri} | {rj}")
+                        deleted.append(i)
+                elif rj in re.sub(reg,'', ri).split():
+                    if re.search(reg, ri):
+                        print(f"3) {ri} | {rj}")
+                        deleted.append(i)
+                    else:
+                        print(f"4) {ri} | {rj}")
+                        deleted.append(j)
+
+    
+    for i in sorted(deleted, reverse = True):
+        del res[i]
+        
     return res
     
 
