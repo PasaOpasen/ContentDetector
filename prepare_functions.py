@@ -8,6 +8,20 @@ Created on Mon Jun 29 20:27:12 2020
 from itertools import zip_longest
 import re
 
+RUSSIAN_SYMBOLS = list('АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя')
+
+def has_more_than_x_russian_symbols(text, mincount = 2):
+    """
+    Does text contain at least mincount russian symbols?
+    """
+    t = 0
+    for s in RUSSIAN_SYMBOLS:
+        if s in text:
+            t+=1
+            if t == mincount:
+                return True
+    return False
+    
 
 def remove_urls (vTEXT):
     return re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%|-)*', '', vTEXT, flags=re.MULTILINE)

@@ -14,14 +14,6 @@ import numpy as np
 
 
 
-with io.open('my_resume.txt','r', encoding = 'utf-8') as f:
-    doclines = f.readlines()
-    
-ngrams = txt_list_to_grams(doclines,0)
-              
-print_list(ngrams)
-
-
 
 def print_pairs_list(l1, l2):
     for g, o in zip(l1,l2):
@@ -46,33 +38,6 @@ def print_pairs_list(l1, l2):
 #             print(f"cannot translate {g}")
 #             ngrams_eng.append(g)
 #         time.sleep(2)
-
-
-obj = [wikipedia.search(n) for n in ngrams]
-
-print_pairs_list(ngrams, obj)
-    
-    
-
-
-for g, o in zip(ngrams,obj):
-    if g.lower() in (w.lower() for w in o):
-        print(g.title())
-
-
-
-for g, o in zip(ngrams,obj):
-    
-    dists = [(w,levenshtein_distance_better(g, w)) for w in o]
-    
-    betters = [(w,l) for (w,l) in dists if l<6 and l<len(g)]
-    
-    if len(betters)>0:
-        print(g)
-        print('-------')
-        print(betters)
-        print()
-
 
 
 def clean_list(arr):
@@ -157,8 +122,56 @@ def get_skills(grams, descriptions):
     return clean_list(result)
 
 
-r = get_skills(ngrams, obj)
-print_list(r)
+def get_hard_skills(grams):
+    
+    print(f'Read wiki...')
+    
+    descriptions = [wikipedia.search(n) for n in grams]
+    
+    return get_skills(grams, descriptions)
+
+
+if __name__ == '__main__':
+    
+    
+    with io.open('my_resume.txt','r', encoding = 'utf-8') as f:
+        doclines = f.readlines()
+        
+    ngrams = txt_list_to_grams(doclines,0)
+                  
+    print_list(ngrams)
+    
+    
+    obj = [wikipedia.search(n) for n in ngrams]
+    
+    print_pairs_list(ngrams, obj)
+        
+        
+    
+    
+    for g, o in zip(ngrams,obj):
+        if g.lower() in (w.lower() for w in o):
+            print(g.title())
+    
+    
+    
+    for g, o in zip(ngrams,obj):
+        
+        dists = [(w,levenshtein_distance_better(g, w)) for w in o]
+        
+        betters = [(w,l) for (w,l) in dists if l<6 and l<len(g)]
+        
+        if len(betters)>0:
+            print(g)
+            print('-------')
+            print(betters)
+            print()
+    
+    
+    
+    
+    r = get_skills(ngrams, obj)
+    print_list(r)
 
 
 
@@ -167,7 +180,7 @@ print_list(r)
 
 
 #######
-get_skills([ngrams[169]],[obj[169]])
+#get_skills([ngrams[169]],[obj[169]])
 
 
 

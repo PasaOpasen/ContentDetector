@@ -31,7 +31,7 @@ def print_list(lst):
 splitter = list(set(
     stopwords.words('russian') + # russian stop words
             stopwords.words('english') + 
-            list('АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя')+ # only one russian symbols
+            RUSSIAN_SYMBOLS + # only one russian symbols
             ['в', 'без', 'до', 'из', 'к', 'на', 'по', 'о', 'от', 'перед', 'при', 'через', 'с', 'у', 'за', 'над', 'об', 'под', 'про', 'для'] # предлоги
             ))
 
