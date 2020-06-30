@@ -17,7 +17,20 @@ if __name__ == '__main__':
     _from = os.path.join(dr, 'soft_skills.txt')
     
     with io.open(_from,'r', encoding = 'utf-8') as f:
-        voc = {' '.join(list(Stem_text(text.lower()))): text[:-1] for text in f.readlines()}
+        lines = f.readlines()
+    
+    voc = {}
+    for line in lines:
+        if '|' in line:
+            i = line.index('|')
+            arr = line[:i].rstrip().split(',')
+            val = line[i+1:].strip()
+            for w in arr+[val]:
+                voc[' '.join(list(Stem_text(w.lower())))] = val
+        else:
+            voc[' '.join(list(Stem_text(line.lower())))] = line[:-1]
+        
+    #voc = {' '.join(list(Stem_text(text.lower()))): text[:-1] for text in lines}
 
     #print(voc)
     _to = os.path.join(dr, 'soft_skills.json')
