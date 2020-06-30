@@ -77,7 +77,7 @@ for g, o in zip(ngrams,obj):
 
 def clean_list(arr):
     
-    if len(arr)==0:
+    if len(arr)<2:
         return arr
     
     res = sorted(list(set(arr)))
@@ -96,17 +96,17 @@ def clean_list(arr):
                 
                 if ri in re.sub(reg,'', rj).split():# это нужно, чтобы убрать всякие C7 и т. п.
                     if re.search(reg, rj):
-                        print(f"1) {ri} | {rj}")
+                        #print(f"1) {ri} | {rj}")
                         deleted.append(j)
                     else:
-                        print(f"2) {ri} | {rj}")
+                        #print(f"2) {ri} | {rj}")
                         deleted.append(i)
                 elif rj in re.sub(reg,'', ri).split():
                     if re.search(reg, ri):
-                        print(f"3) {ri} | {rj}")
+                        #print(f"3) {ri} | {rj}")
                         deleted.append(i)
                     else:
-                        print(f"4) {ri} | {rj}")
+                        #print(f"4) {ri} | {rj}")
                         deleted.append(j)
 
     
@@ -122,9 +122,10 @@ def get_skills(grams, descriptions):
     
     for g, o in zip(grams,descriptions):
         
-        dists = [(w,levenshtein_distance_better(g, w)) for w in o]
+        dists = ((w,levenshtein_distance_better(g, w)) for w in o)
         
         betters = [(w,l) for (w,l) in dists if l<6 and l<len(g)]
+        #print(betters)
         
         if len(betters)>0:
             if len(betters) == 1:
@@ -136,14 +137,43 @@ def get_skills(grams, descriptions):
                 counts = np.array(counts, dtype = 'int16')
                 count_of_zero = np.sum(counts == 0)
                 
+                #print(count_of_zero)
+                
                 if count_of_zero < 2:
                     result.append(words[counts.argmin()])
                 else:
-                    counts = np.array((levenshtein_distance_better(g,w) for w in words))
-                    result.append(words[counts.argmin()])           
-    
+                    #counts = np.array((levenshtein_distance_better(g,w, False) for w in words))
+                    #result.append(words[counts.argmin()])
+                    
+                    counts = np.array([levenshtein_distance_better(g,w, False) for w in words])
+                    #print(counts)
+                    if np.sum(counts == 0) < 2:
+                        result.append(words[counts.argmin()])
+                    else:
+                        counts = np.array([levenshtein_distance(g,w) for w in words])
+                        #print(counts)
+                        result.append(words[counts.argmin()])
+    #print('Spyder' in result)
     return clean_list(result)
 
 
 r = get_skills(ngrams, obj)
 print_list(r)
+
+
+
+
+
+
+
+#######
+get_skills([ngrams[169]],[obj[169]])
+
+
+
+
+
+
+
+
+
