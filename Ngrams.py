@@ -19,7 +19,10 @@ from prepare_functions import *
 
 def print_list(lst):
     for r in lst:
-        print(r)
+       print(r)
+    
+    #print('R' in lst)
+    
     print()
     print()
     print()
@@ -66,7 +69,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     
     
     # replace strange symbols with space
-    convert = lambda s: s if s in ['.','#','+'] or s.isspace() or s.isalnum() else ' '
+    convert = lambda s: s if s in [',','.','#','+'] or s.isspace() or s.isalnum() else ' '
     
     lines = (
         ''.join((convert(s) for s in line)).strip() 
@@ -82,8 +85,16 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     
     if debug:
         print('DELETE MULTIPLE SPACES')
-        print_list(list(lines))
+        print_list(lines)
     
+    
+    commas=[]
+    for line in lines:
+        commas += line.split(',')
+    
+    if debug:
+        print('SPLIT BY COMMAS')
+        print_list(commas)
     
     # можно еще поисправлять ошибки и т п, но это не так просто
     
@@ -92,13 +103,13 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     
     sentences = []
     
-    for obj in lines:
+    for obj in commas:
         #sentences += [str(sent) for sent in tb.TextBlob(obj).sentences] 
         for sentence in get_sentences(obj): # split by .    
             sentences +=  split_by_words2(sentence, splitter) # split by stopwords #get_sentences(obj)
     
     if debug:
-        print('SPLIT BY SENTENCES')
+        print('SPLIT BY SENTENCES AND STOP WORDS')
         print_list(sentences)
     
     # remove stopwords
@@ -110,7 +121,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
                  for s in sentences]
     
     if debug:
-        print('REMOVE STOP WORDS')
+        print('REMOVE 1. 2. 3. 4. SYMBOLS')
         print_list(sentences)
     
     # split by n-grams
@@ -131,7 +142,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
     
     # delete ngrams without alpha
     
-    ngrams = [g for g in ngrams if len(g)>1 and any((s.isalpha() for s in g))]
+    ngrams = [g for g in ngrams if len(g)>0 and any((s.isalpha() for s in g))]
     
     if debug:
         print('DELETE NGRAMS WITHOUT ALPHA')

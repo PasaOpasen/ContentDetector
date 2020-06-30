@@ -76,9 +76,10 @@ def split_by_words2(sentence, words):
     result = []
     tmp=[]
     for w in sentence.split():
-        if w in words and len(tmp)>0:
-            result.append(' '.join(tmp))
-            tmp=[]
+        if w in words:
+            if len(tmp)>0:
+                result.append(' '.join(tmp))
+                tmp=[]
         else: 
             tmp.append(w)
     
