@@ -11,10 +11,15 @@ import io
 #import nltk
 #nltk.download('stopwords')
 #from nltk.corpus import stopwords
-import sys
+import sys, os
 import re
 
 from prepare_functions import *
+
+
+my_dir = os.path.dirname(__file__)
+def CorrectPath(filename):
+    return os.path.join(my_dir, filename)
 
 
 def print_list(lst):
@@ -28,13 +33,13 @@ def print_list(lst):
     print()
 
 
-with open('stopwords(used).txt', 'r') as f:
-    splitter = [w.rstrip() for w in f.readlines()]
+with open(CorrectPath('stopwords(used).txt'), 'r') as f:
+    splitter = [w.rstrip() for w in f.readlines() if not w.startswith('#') and len(w)>1]
 
 
 
 
-def txt_list_to_grams(lines, debug = 1, out_file = 'report.txt'):
+def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
         
     if debug:
         file = open(out_file,'w')
@@ -175,7 +180,7 @@ if __name__=='__main__':
     
     # 1) read file
     
-    with io.open('my_resume.txt','r', encoding = 'utf-8') as f:
+    with io.open(CorrectPath('my_resume.txt'),'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     original_stdout = sys.stdout

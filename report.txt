@@ -564,13 +564,13 @@ Python
 параллельной транскрипцией
 т. п.
 также бот
-Telegram multi translator bot
+multi translator bot
 схожим функционалом
 6. конвертер grapheme
 phoneme
 фарси
 также бот
-Telegram PersianG2Pbot
+PersianG2Pbot
 использующий
 ##
 Окончил Факультет математики
@@ -677,14 +677,13 @@ ML.NET
 мной
 мои аккаунты
 GitHub
-Gmail qtckpuhdsa gmail.com
-Discord Пася Опасен#3065
-Telegram PasaOpasen
-LinkedIn
+qtckpuhdsa gmail.com
+Пася Опасен#3065
+PasaOpasen
 Steam
 VK
 Facebook
-Instagram ofdegradation
+ofdegradation
 Kaggle
 RPubs
 NuGet
@@ -735,13 +734,13 @@ Python
 параллельной транскрипцией
 
 также бот
-Telegram multi translator bot
+multi translator bot
 схожим функционалом
 конвертер grapheme
 phoneme
 фарси
 также бот
-Telegram PersianG2Pbot
+PersianG2Pbot
 использующий
 ##
 Окончил Факультет математики
@@ -848,14 +847,13 @@ ML.NET
 мной
 мои аккаунты
 GitHub
-Gmail qtckpuhdsa gmail.com
-Discord Пася Опасен#3065
-Telegram PasaOpasen
-LinkedIn
+qtckpuhdsa gmail.com
+Пася Опасен#3065
+PasaOpasen
 Steam
 VK
 Facebook
-Instagram ofdegradation
+ofdegradation
 Kaggle
 RPubs
 NuGet
@@ -889,7 +887,6 @@ GitHub
 математическая
 mathematician
 LaTeX
-Telegram PasaOpasen
 удалённой работе
 Реализация
 translator
@@ -927,7 +924,6 @@ VK
 демонстрации
 алгоритмов линейной
 математическая библиотека
-Telegram multi
 PersianG2Pbot
 Data Science
 комбинаторные алгоритмы
@@ -997,7 +993,6 @@ Kaggle
 Shiny
 опытный
 мат.
-Telegram PersianG2Pbot
 интегрирования
 plotly
 phoneme
@@ -1028,7 +1023,6 @@ Windows
 кода
 спортсмен
 библиотека
-Discord Пася
 функционалом
 поиске дефектов
 компьютерных
@@ -1051,7 +1045,6 @@ desktop приложения
 высшая
 социология художественное
 реализации
-Gmail qtckpuhdsa
 7
 микрофона
 h2o
@@ -1061,7 +1054,6 @@ keras
 Книги
 стажем
 также умею
-LinkedIn
 C# 7
 реализации мат.
 оптимизация
@@ -1090,7 +1082,6 @@ bot
 несколько книг
 1
 VS
-Discord
 удалённой
 ускорение
 также бот
@@ -1098,10 +1089,8 @@ Discord
 разработка мат.
 D
 умею
-Instagram ofdegradation
 Всегда
 Окончил
-Telegram
 работы
 колонок
 года практики
@@ -1159,7 +1148,6 @@ Code
 Steam
 senior
 коллекции
-Gmail
 Пася Опасен#3065
 Delphi
 ОСНОВНЫЕ
@@ -1198,7 +1186,6 @@ Scientist
 набор
 однослойных
 NuGet
-Instagram
 конвертер
 ## Связь
 математика оптимизация
@@ -1251,7 +1238,6 @@ GitHub
 математическая
 mathematician
 LaTeX
-Telegram PasaOpasen
 удалённой работе
 Реализация
 translator
@@ -1289,7 +1275,6 @@ VK
 демонстрации
 алгоритмов линейной
 математическая библиотека
-Telegram multi
 PersianG2Pbot
 Data Science
 комбинаторные алгоритмы
@@ -1358,7 +1343,6 @@ Kaggle
 Shiny
 опытный
 мат.
-Telegram PersianG2Pbot
 интегрирования
 plotly
 phoneme
@@ -1389,7 +1373,6 @@ Windows
 кода
 спортсмен
 библиотека
-Discord Пася
 функционалом
 поиске дефектов
 компьютерных
@@ -1412,7 +1395,6 @@ desktop приложения
 высшая
 социология художественное
 реализации
-Gmail qtckpuhdsa
 микрофона
 h2o
 социология
@@ -1421,7 +1403,6 @@ keras
 Книги
 стажем
 также умею
-LinkedIn
 C# 7
 реализации мат.
 оптимизация
@@ -1449,7 +1430,6 @@ bot
 пауэрлифтеров
 несколько книг
 VS
-Discord
 удалённой
 ускорение
 также бот
@@ -1457,10 +1437,8 @@ Discord
 разработка мат.
 D
 умею
-Instagram ofdegradation
 Всегда
 Окончил
-Telegram
 работы
 колонок
 года практики
@@ -1516,7 +1494,6 @@ Code
 Steam
 senior
 коллекции
-Gmail
 Пася Опасен#3065
 Delphi
 ОСНОВНЫЕ
@@ -1555,7 +1532,6 @@ Scientist
 набор
 однослойных
 NuGet
-Instagram
 конвертер
 ## Связь
 математика оптимизация
@@ -1608,7 +1584,6 @@ GitHub
 математическая
 mathematician
 LaTeX
-Telegram PasaOpasen
 удалённой работе
 Реализация
 translator
@@ -1646,7 +1621,6 @@ VK
 демонстрации
 алгоритмов линейной
 математическая библиотека
-Telegram multi
 PersianG2Pbot
 Data Science
 комбинаторные алгоритмы
@@ -1715,7 +1689,6 @@ Kaggle
 Shiny
 опытный
 мат.
-Telegram PersianG2Pbot
 интегрирования
 plotly
 phoneme
@@ -1746,7 +1719,6 @@ Windows
 кода
 спортсмен
 библиотека
-Discord Пася
 функционалом
 поиске дефектов
 компьютерных
@@ -1769,7 +1741,6 @@ desktop приложения
 высшая
 социология художественное
 реализации
-Gmail qtckpuhdsa
 микрофона
 h2o
 социология
@@ -1778,7 +1749,6 @@ keras
 Книги
 стажем
 также умею
-LinkedIn
 C# 7
 реализации мат.
 оптимизация
@@ -1806,7 +1776,6 @@ bot
 пауэрлифтеров
 несколько книг
 VS
-Discord
 удалённой
 ускорение
 также бот
@@ -1814,10 +1783,8 @@ Discord
 разработка мат.
 D
 умею
-Instagram ofdegradation
 Всегда
 Окончил
-Telegram
 работы
 колонок
 года практики
@@ -1873,7 +1840,6 @@ Code
 Steam
 senior
 коллекции
-Gmail
 Пася Опасен#3065
 Delphi
 ОСНОВНЫЕ
@@ -1912,7 +1878,6 @@ Scientist
 набор
 однослойных
 NuGet
-Instagram
 конвертер
 Связь
 математика оптимизация
@@ -1955,7 +1920,6 @@ RESULTS
 владею
 сборка
 LaTeX
-Telegram PasaOpasen
 Реализация
 data.table
 multi
@@ -2024,7 +1988,6 @@ translator bot
 дженерики
 рефакторинге
 высшая
-Gmail qtckpuhdsa
 h2o
 социология
 keras
@@ -2053,8 +2016,6 @@ VS
 ускорение
 алгебры
 умею
-Instagram ofdegradation
-Telegram
 работы
 года практики
 микрофона колонок
@@ -2142,7 +2103,6 @@ VK
 Дмитрий
 алгоритмов линейной
 математическая библиотека
-Telegram multi
 PersianG2Pbot
 Data Science
 комбинаторные алгоритмы
@@ -2181,7 +2141,6 @@ R Shiny
 проектам
 Shiny
 мат.
-Telegram PersianG2Pbot
 plotly
 phoneme
 Python numpy
@@ -2200,7 +2159,6 @@ middle Python
 Windows
 опытный пользователь
 кода
-Discord Пася
 поиске дефектов
 опыт WPF
 несколько
@@ -2214,7 +2172,6 @@ desktop приложения
 реализации
 микрофона
 КубГУ
-LinkedIn
 моделирование
 MathNet Numerics
 sklearn
@@ -2223,7 +2180,6 @@ sklearn
 .NET Framework
 умею писать
 несколько книг
-Discord
 также бот
 разработка мат.
 D
@@ -2258,7 +2214,6 @@ Code
 .NET R
 Steam
 senior
-Gmail
 Delphi
 параллельной транскрипцией
 Пасько
@@ -2275,7 +2230,6 @@ VS Code
 сборка мусора
 ускорение кода
 однослойных
-Instagram
 параллелизм
 математика оптимизация
 мной
