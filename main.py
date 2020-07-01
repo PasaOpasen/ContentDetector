@@ -38,7 +38,7 @@ if __name__=='__main__':
         else:
             h.append(g)
             
-    soft_skills = get_soft_skills(s)
+    soft_skills = get_soft_skills(s+h)
     
     #hard_skills = get_hard_skills(h)
             

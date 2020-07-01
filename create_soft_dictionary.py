@@ -23,16 +23,17 @@ if __name__ == '__main__':
     for line in lines:
         if '|' in line:
             i = line.index('|')
-            arr = line[:i].rstrip().split(',')
-            val = line[i+1:].strip()
-            for w in arr+[val]:
-                voc[' '.join(list(Stem_text(w.lower())))] = val
+            arr = [tmp.strip() for tmp in line[:i].rstrip().split(',')]
+            val = [tmp.strip() for tmp in line[i+1:].strip().split(',')]
+            for w in arr+val:
+                stemmed = ' '.join(list(Stem_text(w.lower())))
+                voc[stemmed] = val
         else:
             voc[' '.join(list(Stem_text(line.lower())))] = line[:-1]
         
     #voc = {' '.join(list(Stem_text(text.lower()))): text[:-1] for text in lines}
 
-    #print(voc)
+    print(voc)
     _to = os.path.join(dr, 'soft_skills.json')
     
     with io.open(_to,'w', encoding = 'utf-8') as f:

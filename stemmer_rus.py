@@ -31,8 +31,11 @@ def get_soft_skills(grams):
     result = []
     for key, value in voc.items():
         if set(key.split()).issubset(full):
-            result.append(value)
-    return result
+            if type(value) == list:
+                result+=value
+            else:
+                result.append(value)
+    return list(set(result))
 
 
 
