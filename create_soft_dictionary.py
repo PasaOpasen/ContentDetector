@@ -21,15 +21,16 @@ if __name__ == '__main__':
     
     voc = {}
     for line in lines:
-        if '|' in line:
-            i = line.index('|')
-            arr = [tmp.strip() for tmp in line[:i].rstrip().split(',')]
-            val = [tmp.strip() for tmp in line[i+1:].strip().split(',')]
-            for w in arr+val:
-                stemmed = ' '.join(list(Stem_text(w.lower())))
-                voc[stemmed] = val
-        else:
-            voc[' '.join(list(Stem_text(line.lower())))] = line[:-1]
+        if len(line)>1:
+            if '|' in line:
+                i = line.index('|')
+                arr = [tmp.strip() for tmp in line[:i].rstrip().split(',')]
+                val = [tmp.strip() for tmp in line[i+1:].strip().split(',')]
+                for w in arr+val:
+                    stemmed = ' '.join(list(Stem_text(w.lower())))
+                    voc[stemmed] = val
+            else:
+                voc[' '.join(list(Stem_text(line.lower())))] = line[:-1]
         
     #voc = {' '.join(list(Stem_text(text.lower()))): text[:-1] for text in lines}
 
