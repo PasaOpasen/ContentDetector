@@ -26,6 +26,13 @@ def has_more_than_x_russian_symbols(text, mincount = 2):
 def remove_urls (vTEXT):
     return re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%|-)*', '', vTEXT, flags=re.MULTILINE)
 
+def remove_mails(text):
+    return re.sub(r"\S*@\w*\.\w*(\s?|,|\.)",'',text)
+
+def remove_bots(text):
+    return re.sub(r"\@[\w\d]*",'',text)
+
+
 def get_ngrams(arr, n=2):
     """
     Делает n-grams из набора слов.

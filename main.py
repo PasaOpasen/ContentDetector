@@ -17,7 +17,6 @@ from prepare_functions import *
 
 
 
-
 if __name__=='__main__':
     
     
@@ -39,6 +38,23 @@ if __name__=='__main__':
             h.append(g)
             
     soft_skills = get_soft_skills(s+h)
+    
+    
+    lowers = [k.lower().split() for k in soft_skills]
+    
+    inds = []
+    for i in range(len(h)):
+        w = h[i].lower()
+        for k in lowers:
+            for l in k:
+                if w == l:
+                    print(f'{w} in {l} from {k}')
+                    inds.append(i)
+                    break
+            
+    for i in inds[::-1]:
+        del h[i]
+    
     
     #hard_skills = get_hard_skills(h)
             

@@ -61,11 +61,12 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
         print_list(list(lines))
     
     # remove urls
-    lines = map(remove_urls, lines)
+    lines = map(remove_mails, map(remove_urls, lines))
+    lines = map(remove_bots, lines)
     
     if debug:
         lines = list(lines)
-        print('DELETE URLS')
+        print('DELETE URLS AND MAILS')
         print_list(lines)
     
     
