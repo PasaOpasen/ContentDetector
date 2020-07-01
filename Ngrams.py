@@ -8,9 +8,9 @@ Created on Mon Jun 29 16:11:56 2020
 
 import textblob as tb
 import io
-import nltk
-nltk.download('stopwords')
-from nltk.corpus import stopwords
+#import nltk
+#nltk.download('stopwords')
+#from nltk.corpus import stopwords
 import sys
 import re
 
@@ -28,12 +28,8 @@ def print_list(lst):
     print()
 
 
-splitter = list(set(
-    stopwords.words('russian') + # russian stop words
-            stopwords.words('english') + 
-            RUSSIAN_SYMBOLS + # only one russian symbols
-            ['в', 'без', 'до', 'из', 'к', 'на', 'по', 'о', 'от', 'перед', 'при', 'через', 'с', 'у', 'за', 'над', 'об', 'под', 'про', 'для'] # предлоги
-            ))
+with open('stopwords(used).txt', 'r') as f:
+    splitter = [w.rstrip() for w in f.readlines()]
 
 
 
