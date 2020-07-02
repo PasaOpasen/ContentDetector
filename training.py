@@ -24,7 +24,7 @@ files = [os.path.join(my_dir,'train_samples',f'{i}.txt') for i in range (1,11)]
 if __name__=='__main__':
     
     
-    with io.open(files[1],'r', encoding = 'utf-8') as f:
+    with io.open(files[9],'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     grams = txt_list_to_grams(doclines,0)
@@ -44,6 +44,7 @@ if __name__=='__main__':
     soft_skills = get_soft_skills(s+h)
     print()
     keys = Get_dictionary_values()
+    keys_set = set(keys)
     
     lowers_skills = [k.lower() for k in soft_skills]
     lowers = [k.lower().split() for k in soft_skills]
@@ -55,6 +56,10 @@ if __name__=='__main__':
         
         if w in lowers_skills or w in keys:
             print(f'{w} in {lowers_skills} or keys')
+            inds.append(i)
+        #elif set(w.split()).issubset(keys_set):
+        elif ' '.join(list(Stem_text(w))) in keys_set:    
+            print(f'{w} is subset')
             inds.append(i)
         else:
             for k in lowers:

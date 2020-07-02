@@ -3,32 +3,41 @@
 арабский
 персидский | фарси
 
-грамотный | грамотность
+грамотный, объяснить, понимаю | грамотность
 внимательный, сосредотачиваться, сосредоточенность | внимательность 
 ответственный | ответственность
-менеджмент, менеджер, управление, руководить, глава, принимать решения, умею убеждать | лидерские качества, умение убеждать
+менеджмент, менеджер, управление, руководить, глава, принимать решения, умею убеждать, обосновать, презентовать | лидерские качества, умение убеждать
 заводить друзей, общаться, общительность, общительный, излагать мысли | коммуникабельность, дружелюбность
-дисциплина, дисциплинирован | организованность
+дисциплина, дисциплинирован, самостоятельно | организованность
 командная работа | умение работать в команде
 вовремя, заранее, аккуратность | пунктуальность, исполнительность
 компромисс, уступить, выполнять указания, критика, готов, готова | гибкость
 сложные задачи | креативность
 аналитика, аналитический | критическое мышление
 
-изучать, узнавать, учиться, хорошая память, саморазвитие, обучаюсь | обучаемость
+изучать, узнавать, учиться, хорошая память, саморазвитие, обучаюсь, учусь | обучаемость
 выдержка, выдерживать, терпеть | стрессоустойчивость
 
 1С
-Битрикс
+bitrix | Битрикс
+Google Analytics
+реклама | рекламные сервисы
 математика, статистика, алгебра, комбинаторика, линейное программирование | высшая математика
 обработка данных, анализ данных | Машинное обучение, Data Sciense
 
-майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word | Microsoft Office, Microsoft Excel, Microsoft Word 
+майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word, MS word, ms excel | Microsoft Office, Microsoft Excel, Microsoft Word 
+MS Power point, power point, powerpoint | Microsoft PowerPoint
+Outlook, MS Outlook | Microsoft Outlook
+
 Photoshop, фотошоп | Adobe Photoshop
 Illustrator, иллюстратор, Ai | Adobe Illustrator
 Adobe After Effect
 Figma
 SASS
+root cause | Root Cause анализ
+SMART | принципы SMART
+вёрстка, парсинг | дизайн сайтов, верстка сайтов
+ceo | СЕО продвижение
 
 базы данных | SQL, MySQL
 Apache | Big data, Apache Spark, Hadoop
@@ -36,10 +45,31 @@ Apache | Big data, Apache Spark, Hadoop
 
 
 си, C, cpp | C++
-дотнет, .net | .NET Core, .NET Framework
+дотнет, .net, VB, C#, F# | .NET Core, .NET Framework, ASP.NET Core
+unity3d | Unity
 js | JavaScript, TypeScript
 ReactJS | React, ReactNative
 Redux
+Angular
+PHP
+go | Golang
+| Java, Kotlin
+
+Pandas
+Numpy
+sklearn | Scikit-learn
+
+
 
 фротенд, фронтенд, фронт-энд, full-stack, fullstack, full stack | Frontend
 бекенд, бэк-энд, full-stack, fullstack, full stack | Backend
+| CSS, HTML
+developer | Developing
+создание сайтов, примеры сайтов, wordpress | разработка сайтов
+
+IE | Internet Explorer
+Windows
+Linux
+
+
+

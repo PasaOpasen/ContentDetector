@@ -33,7 +33,7 @@ def get_soft_skills(grams):
     for g in grams:
         full=full.union(Stem_text(g))
     
-    voc = get_stem_dictionary()
+    voc = dictionary
     
     result = []
     for key, value in voc.items():
@@ -44,6 +44,26 @@ def get_soft_skills(grams):
                 result.append(value)
     return list(set(result))
 
+# def get_soft_skills2(s_grams, h_grams):
+#     """
+#     работает как get_soft_skills(s_grams + h_grams),
+#     но удаляет лишнее из h_grams
+#     """
+    
+#     full = set()
+#     for g in s_grams + h_grams:
+#         full=full.union(Stem_text(g))
+    
+#     voc = dictionary
+    
+#     result = []
+#     for key, value in voc.items():
+#         if set(key.split()).issubset(full):
+#             if type(value) == list:
+#                 result+=value
+#             else:
+#                 result.append(value)
+#     return list(set(result))
 
 
 

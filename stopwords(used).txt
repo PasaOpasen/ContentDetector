@@ -408,6 +408,9 @@ Discord
 Skype
 LinkedIn
 WhatsApp
+вотсап
+Вотсап
+Facebook
 
 # Где пакеты
 
@@ -419,3 +422,9 @@ PyPi
 PyPI
 
 
+# разные слова
+
+mostly
+PC
+email
+start

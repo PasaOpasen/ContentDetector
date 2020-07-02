@@ -1,1 +1,2 @@
-Windows, MS Word, MS Excel, MS Power Point,MS Outlook, The Bat, Netscape, Internet Explorer, ReGet, работа с офисной техникой, водительское удостоверение категории 'В'
+Windows, MS Word, MS Excel, MS Power Point,MS Outlook, The Bat, Netscape, Internet Explorer, 
+ReGet, работа с офисной техникой, водительское удостоверение категории 'В'
