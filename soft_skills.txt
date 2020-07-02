@@ -39,7 +39,7 @@ SMART | принципы SMART
 вёрстка, парсинг | дизайн сайтов, верстка сайтов
 ceo | СЕО продвижение
 
-базы данных | SQL, MySQL
+базы данных, реляционный | SQL, MySQL
 Apache | Big data, Apache Spark, Hadoop
 гит, Git, GitLab, GitHub | git
 

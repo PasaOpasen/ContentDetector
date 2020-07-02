@@ -9,7 +9,7 @@ import sys, os, io
 
 from Ngrams import txt_list_to_grams, print_list
 
-from stemmer_rus import get_soft_skills, Get_dictionary_values, Stem_text
+from stemmer_rus import get_soft_skills, Get_dictionary_values, Stem_text, get_soft_skills2
 
 from wikipedia_api import get_hard_skills
 
@@ -24,7 +24,7 @@ files = [os.path.join(my_dir,'train_samples',f'{i}.txt') for i in range (1,11)]
 if __name__=='__main__':
     
     
-    with io.open(files[9],'r', encoding = 'utf-8') as f:
+    with io.open(files[7],'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     grams = txt_list_to_grams(doclines,0)
@@ -41,36 +41,39 @@ if __name__=='__main__':
         else:
             h.append(g)
             
-    soft_skills = get_soft_skills(s+h)
-    print()
-    keys = Get_dictionary_values()
-    keys_set = set(keys)
+    #soft_skills = get_soft_skills(s+h)
     
-    lowers_skills = [k.lower() for k in soft_skills]
-    lowers = [k.lower().split() for k in soft_skills]
+    soft_skills = get_soft_skills2(s,h)
     
-    inds = []
-    for i in range(len(h)):
-        w = h[i].lower()
-        #w = Stem_text(h[i])
+    # print()
+    # keys = Get_dictionary_values()
+    # keys_set = set(keys)
+    
+    # lowers_skills = [k.lower() for k in soft_skills]
+    # lowers = [k.lower().split() for k in soft_skills]
+    
+    # inds = []
+    # for i in range(len(h)):
+    #     w = h[i].lower()
+    #     #w = Stem_text(h[i])
         
-        if w in lowers_skills or w in keys:
-            print(f'{w} in {lowers_skills} or keys')
-            inds.append(i)
-        #elif set(w.split()).issubset(keys_set):
-        elif ' '.join(list(Stem_text(w))) in keys_set:    
-            print(f'{w} is subset')
-            inds.append(i)
-        else:
-            for k in lowers:
-                for l in k:
-                    if w == l:
-                        print(f'{w} in {l} from {k}')
-                        inds.append(i)
-                        break
+    #     if w in lowers_skills or w in keys:
+    #         print(f'{w} in {lowers_skills} or keys')
+    #         inds.append(i)
+    #     #elif set(w.split()).issubset(keys_set):
+    #     elif ' '.join(list(Stem_text(w))) in keys_set:    
+    #         print(f'{w} is subset')
+    #         inds.append(i)
+    #     else:
+    #         for k in lowers:
+    #             for l in k:
+    #                 if w == l:
+    #                     print(f'{w} in {l} from {k}')
+    #                     inds.append(i)
+    #                     break
                 
-    for i in inds[::-1]:
-        del h[i]
+    # for i in inds[::-1]:
+    #     del h[i]
     
     print()
     print(f'Softs: {soft_skills}')
