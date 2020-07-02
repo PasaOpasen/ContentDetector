@@ -30,7 +30,7 @@ if __name__ == '__main__':
                     stemmed = ' '.join(list(Stem_text(w.lower())))
                     voc[stemmed] = val
             else:
-                voc[' '.join(list(Stem_text(line.lower())))] = line[:-1]
+                voc[' '.join(list(Stem_text(line.lower())))] = line.rstrip()
         
     #voc = {' '.join(list(Stem_text(text.lower()))): text[:-1] for text in lines}
 

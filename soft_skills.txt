@@ -11,7 +11,7 @@
 дисциплина, дисциплинирован | организованность
 командная работа | умение работать в команде
 вовремя, заранее, аккуратность | пунктуальность, исполнительность
-компромисс, уступить, выполнять указания, критика | гибкость
+компромисс, уступить, выполнять указания, критика, готов, готова | гибкость
 сложные задачи | креативность
 аналитика, аналитический | критическое мышление
 
@@ -22,10 +22,24 @@
 Битрикс
 математика, статистика, алгебра, комбинаторика, линейное программирование | высшая математика
 обработка данных, анализ данных | Машинное обучение, Data Sciense
-майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word | Microsoft Office, Microsoft Excel, Microsoft Word 
 
+майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word | Microsoft Office, Microsoft Excel, Microsoft Word 
+Photoshop, фотошоп | Adobe Photoshop
+Illustrator, иллюстратор, Ai | Adobe Illustrator
+Adobe After Effect
+Figma
+SASS
 
 базы данных | SQL, MySQL
 Apache | Big data, Apache Spark, Hadoop
 гит, Git, GitLab, GitHub | git
 
+
+си, C, cpp | C++
+дотнет, .net | .NET Core, .NET Framework
+js | JavaScript, TypeScript
+ReactJS | React, ReactNative
+Redux
+
+фротенд, фронтенд, фронт-энд, full-stack, fullstack, full stack | Frontend
+бекенд, бэк-энд, full-stack, fullstack, full stack | Backend

@@ -24,7 +24,7 @@ def has_more_than_x_russian_symbols(text, mincount = 2):
     
 
 def remove_urls (vTEXT):
-    return re.sub(r'(https|http)?:\/\/(\w|\.|\/|\?|\=|\&|\%|-)*', '', vTEXT, flags=re.MULTILINE)
+    return re.sub(r'((https|http)?:\/\/|www\.)(\w|\.|\/|\?|\=|\&|\%|-)*', '', vTEXT, flags=re.MULTILINE)
 
 def remove_mails(text):
     return re.sub(r"\S*@\w*\.\w*(\s?|,|\.)",'',text)
@@ -127,6 +127,7 @@ if __name__ == '__main__':
         'https://elibrary.ru/item.asp?id=38189363',
         'https://www.linkedin.com/in/dmitry-pasko-5bb57219b/',
         'https://stackoverflow.com/users/13119067/Дмитрий-Пасько',
+        'www.behance.net/umkabear'
         ]
     
     for u in urls:

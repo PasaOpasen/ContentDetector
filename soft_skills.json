@@ -43,7 +43,7 @@
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
-    "\u0440\u0435\u0448\u0435\u043d \u043f\u0440\u0438\u043d\u0438\u043c\u0430": [
+    "\u043f\u0440\u0438\u043d\u0438\u043c\u0430 \u0440\u0435\u0448\u0435\u043d": [
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
@@ -55,7 +55,7 @@
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
-    "\u0443\u043c\u0435\u043d \u0443\u0431\u0435\u0436\u0434\u0430": [
+    "\u0443\u0431\u0435\u0436\u0434\u0430 \u0443\u043c\u0435\u043d": [
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
@@ -71,7 +71,7 @@
         "\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0431\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
         "\u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u043e\u0441\u0442\u044c"
     ],
-    "\u043c\u044b\u0441\u043b \u0438\u0437\u043b\u0430\u0433\u0430": [
+    "\u0438\u0437\u043b\u0430\u0433\u0430 \u043c\u044b\u0441\u043b": [
         "\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0431\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
         "\u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u043e\u0441\u0442\u044c"
     ],
@@ -95,7 +95,7 @@
     "\u043a\u043e\u043c\u0430\u043d\u0434\u043d \u0440\u0430\u0431\u043e\u0442": [
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0435"
     ],
-    "\u0440\u0430\u0431\u043e\u0442\u0430 \u043a\u043e\u043c\u0430\u043d\u0434 \u0443\u043c\u0435\u043d \u0432": [
+    "\u0432 \u0440\u0430\u0431\u043e\u0442\u0430 \u0443\u043c\u0435\u043d \u043a\u043e\u043c\u0430\u043d\u0434": [
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0435"
     ],
     "\u0432\u043e\u0432\u0440\u0435\u043c": [
@@ -124,16 +124,22 @@
     "\u0443\u0441\u0442\u0443\u043f": [
         "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
     ],
-    "\u0443\u043a\u0430\u0437\u0430\u043d \u0432\u044b\u043f\u043e\u043b\u043d\u044f": [
+    "\u0432\u044b\u043f\u043e\u043b\u043d\u044f \u0443\u043a\u0430\u0437\u0430\u043d": [
         "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
     ],
     "\u043a\u0440\u0438\u0442\u0438\u043a": [
         "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
     ],
+    "\u0433\u043e\u0442": [
+        "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
+    ],
+    "\u0433\u043e\u0442\u043e\u0432": [
+        "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
+    ],
     "\u0433\u0438\u0431\u043a\u043e\u0441\u0442": [
         "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
     ],
-    "\u0441\u043b\u043e\u0436\u043d \u0437\u0430\u0434\u0430\u0447": [
+    "\u0437\u0430\u0434\u0430\u0447 \u0441\u043b\u043e\u0436\u043d": [
         "\u043a\u0440\u0435\u0430\u0442\u0438\u0432\u043d\u043e\u0441\u0442\u044c"
     ],
     "\u043a\u0440\u0435\u0430\u0442\u0438\u0432\u043d": [
@@ -201,15 +207,15 @@
     "\u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a \u0432\u044b\u0441\u0448": [
         "\u0432\u044b\u0441\u0448\u0430\u044f \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430"
     ],
-    "\u0434\u0430\u043d \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a": [
+    "\u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a \u0434\u0430\u043d": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
         "Data Sciense"
     ],
-    "\u0434\u0430\u043d \u0430\u043d\u0430\u043b\u0438\u0437": [
+    "\u0430\u043d\u0430\u043b\u0438\u0437 \u0434\u0430\u043d": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
         "Data Sciense"
     ],
-    "\u043e\u0431\u0443\u0447\u0435\u043d \u043c\u0430\u0448\u0438\u043d": [
+    "\u043c\u0430\u0448\u0438\u043d \u043e\u0431\u0443\u0447\u0435\u043d": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
         "Data Sciense"
     ],
@@ -257,17 +263,41 @@
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "microsoft excel": [
+    "excel microsoft": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "microsoft word": [
+    "word microsoft": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "\u0434\u0430\u043d \u0431\u0430\u0437": [
+    "photoshop": [
+        "Adobe Photoshop"
+    ],
+    "\u0444\u043e\u0442\u043e\u0448\u043e\u043f": [
+        "Adobe Photoshop"
+    ],
+    "photoshop adobe": [
+        "Adobe Photoshop"
+    ],
+    "illustrator": [
+        "Adobe Illustrator"
+    ],
+    "\u0438\u043b\u043b\u044e\u0441\u0442\u0440\u0430\u0442\u043e\u0440": [
+        "Adobe Illustrator"
+    ],
+    "ai": [
+        "Adobe Illustrator"
+    ],
+    "illustrator adobe": [
+        "Adobe Illustrator"
+    ],
+    "effect adobe after": "Adobe After Effect",
+    "figma": "Figma",
+    "sass": "SASS",
+    "\u0431\u0430\u0437 \u0434\u0430\u043d": [
         "SQL",
         "MySQL"
     ],
@@ -284,12 +314,12 @@
         "Apache Spark",
         "Hadoop"
     ],
-    "big data": [
+    "data big": [
         "Big data",
         "Apache Spark",
         "Hadoop"
     ],
-    "spark apache": [
+    "apache spark": [
         "Big data",
         "Apache Spark",
         "Hadoop"
@@ -310,5 +340,88 @@
     ],
     "github": [
         "git"
+    ],
+    "\u0441\u0438": [
+        "C++"
+    ],
+    "c": [
+        "C++"
+    ],
+    "cpp": [
+        "C++"
+    ],
+    "c++": [
+        "C++"
+    ],
+    "\u0434\u043e\u0442\u043d\u0435\u0442": [
+        ".NET Core",
+        ".NET Framework"
+    ],
+    ".net": [
+        ".NET Core",
+        ".NET Framework"
+    ],
+    ".net core": [
+        ".NET Core",
+        ".NET Framework"
+    ],
+    ".net framework": [
+        ".NET Core",
+        ".NET Framework"
+    ],
+    "js": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "javascript": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "typescript": [
+        "JavaScript",
+        "TypeScript"
+    ],
+    "reactjs": [
+        "React",
+        "ReactNative"
+    ],
+    "react": [
+        "React",
+        "ReactNative"
+    ],
+    "reactnative": [
+        "React",
+        "ReactNative"
+    ],
+    "redux": "Redux",
+    "\u0444\u0440\u043e\u0442\u0435\u043d\u0434": [
+        "Frontend"
+    ],
+    "\u0444\u0440\u043e\u043d\u0442\u0435\u043d\u0434": [
+        "Frontend"
+    ],
+    "\u0444\u0440\u043e\u043d\u0442-\u044d\u043d\u0434": [
+        "Frontend"
+    ],
+    "full-stack": [
+        "Backend"
+    ],
+    "fullstack": [
+        "Backend"
+    ],
+    "stack full": [
+        "Backend"
+    ],
+    "frontend": [
+        "Frontend"
+    ],
+    "\u0431\u0435\u043a\u0435\u043d\u0434": [
+        "Backend"
+    ],
+    "\u0431\u044d\u043a-\u044d\u043d\u0434": [
+        "Backend"
+    ],
+    "backend": [
+        "Backend"
     ]
 }

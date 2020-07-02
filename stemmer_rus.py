@@ -10,6 +10,11 @@ import os, json, io
 
 stemmer = Stemmer.Stemmer('russian')
 
+
+
+def Get_dictionary_values():
+    return list(set(dictionary.keys()))
+
 def Stem_text(text):
     return set(stemmer.stemWords(text.lower().split()))
 
@@ -19,6 +24,8 @@ def get_stem_dictionary():
         r = json.load(f)
     print(r)
     return r
+
+dictionary = get_stem_dictionary()
 
 def get_soft_skills(grams):
     
