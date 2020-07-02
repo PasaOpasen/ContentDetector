@@ -53,7 +53,7 @@
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
-    "\u0443\u043c \u0443\u0431\u0435\u0436\u0434\u0430": [
+    "\u0443\u0431\u0435\u0436\u0434\u0430 \u0443\u043c": [
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
@@ -65,7 +65,7 @@
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
-    "\u043b\u0438\u0434\u0435\u0440\u0441\u043a \u043a\u0430\u0447\u0435\u0441\u0442\u0432": [
+    "\u043a\u0430\u0447\u0435\u0441\u0442\u0432 \u043b\u0438\u0434\u0435\u0440\u0441\u043a": [
         "\u043b\u0438\u0434\u0435\u0440\u0441\u043a\u0438\u0435 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430",
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0443\u0431\u0435\u0436\u0434\u0430\u0442\u044c"
     ],
@@ -85,7 +85,7 @@
         "\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0431\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
         "\u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u043e\u0441\u0442\u044c"
     ],
-    "\u043c\u044b\u0441\u043b \u0438\u0437\u043b\u0430\u0433\u0430": [
+    "\u0438\u0437\u043b\u0430\u0433\u0430 \u043c\u044b\u0441\u043b": [
         "\u043a\u043e\u043c\u043c\u0443\u043d\u0438\u043a\u0430\u0431\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c",
         "\u0434\u0440\u0443\u0436\u0435\u043b\u044e\u0431\u043d\u043e\u0441\u0442\u044c"
     ],
@@ -109,10 +109,10 @@
     "\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u043d": [
         "\u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043e\u0432\u0430\u043d\u043d\u043e\u0441\u0442\u044c"
     ],
-    "\u0440\u0430\u0431\u043e\u0442 \u043a\u043e\u043c\u0430\u043d\u0434\u043d": [
+    "\u043a\u043e\u043c\u0430\u043d\u0434\u043d \u0440\u0430\u0431\u043e\u0442": [
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0435"
     ],
-    "\u043a\u043e\u043c\u0430\u043d\u0434 \u0443\u043c\u0435\u043d \u0440\u0430\u0431\u043e\u0442\u0430 \u0432": [
+    "\u043a\u043e\u043c\u0430\u043d\u0434 \u0432 \u0443\u043c\u0435\u043d \u0440\u0430\u0431\u043e\u0442\u0430": [
         "\u0443\u043c\u0435\u043d\u0438\u0435 \u0440\u0430\u0431\u043e\u0442\u0430\u0442\u044c \u0432 \u043a\u043e\u043c\u0430\u043d\u0434\u0435"
     ],
     "\u0432\u043e\u0432\u0440\u0435\u043c": [
@@ -141,7 +141,7 @@
     "\u0443\u0441\u0442\u0443\u043f": [
         "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
     ],
-    "\u0443\u043a\u0430\u0437\u0430\u043d \u0432\u044b\u043f\u043e\u043b\u043d\u044f": [
+    "\u0432\u044b\u043f\u043e\u043b\u043d\u044f \u0443\u043a\u0430\u0437\u0430\u043d": [
         "\u0433\u0438\u0431\u043a\u043e\u0441\u0442\u044c"
     ],
     "\u043a\u0440\u0438\u0442\u0438\u043a": [
@@ -168,7 +168,7 @@
     "\u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a": [
         "\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u044b\u0448\u043b\u0435\u043d\u0438\u0435"
     ],
-    "\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a \u043c\u044b\u0448\u043b\u0435\u043d": [
+    "\u043c\u044b\u0448\u043b\u0435\u043d \u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a": [
         "\u043a\u0440\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043c\u044b\u0448\u043b\u0435\u043d\u0438\u0435"
     ],
     "\u0438\u0437\u0443\u0447\u0430": [
@@ -215,7 +215,7 @@
     "\u0440\u0435\u043a\u043b\u0430\u043c": [
         "\u0440\u0435\u043a\u043b\u0430\u043c\u043d\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     ],
-    "\u0441\u0435\u0440\u0432\u0438\u0441 \u0440\u0435\u043a\u043b\u0430\u043c\u043d": [
+    "\u0440\u0435\u043a\u043b\u0430\u043c\u043d \u0441\u0435\u0440\u0432\u0438\u0441": [
         "\u0440\u0435\u043a\u043b\u0430\u043c\u043d\u044b\u0435 \u0441\u0435\u0440\u0432\u0438\u0441\u044b"
     ],
     "\u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a": [
@@ -230,27 +230,35 @@
     "\u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0442\u043e\u0440\u0438\u043a": [
         "\u0432\u044b\u0441\u0448\u0430\u044f \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430"
     ],
-    "\u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d \u043b\u0438\u043d\u0435\u0439\u043d": [
+    "\u043b\u0438\u043d\u0435\u0439\u043d \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0438\u0440\u043e\u0432\u0430\u043d": [
         "\u0432\u044b\u0441\u0448\u0430\u044f \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430"
     ],
-    "\u0432\u044b\u0441\u0448 \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a": [
+    "\u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a \u0432\u044b\u0441\u0448": [
         "\u0432\u044b\u0441\u0448\u0430\u044f \u043c\u0430\u0442\u0435\u043c\u0430\u0442\u0438\u043a\u0430"
     ],
     "\u0434\u0430\u043d \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
-        "Data Sciense"
+        "Data Science"
     ],
     "\u0434\u0430\u043d \u0430\u043d\u0430\u043b\u0438\u0437": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
-        "Data Sciense"
+        "Data Science"
+    ],
+    "scientist": [
+        "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
+        "Data Science"
+    ],
+    "kaggle": [
+        "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
+        "Data Science"
     ],
     "\u043e\u0431\u0443\u0447\u0435\u043d \u043c\u0430\u0448\u0438\u043d": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
-        "Data Sciense"
+        "Data Science"
     ],
-    "data sciense": [
+    "data science": [
         "\u041c\u0430\u0448\u0438\u043d\u043d\u043e\u0435 \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u0435",
-        "Data Sciense"
+        "Data Science"
     ],
     "\u043c\u0430\u0439\u043a\u0440\u043e\u0441\u043e\u0444\u0442 \u043e\u0444\u0438\u0441": [
         "Microsoft Office",
@@ -287,27 +295,27 @@
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "word ms": [
+    "ms word": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "excel ms": [
+    "ms excel": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "microsoft office": [
+    "office microsoft": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "excel microsoft": [
+    "microsoft excel": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
     ],
-    "microsoft word": [
+    "word microsoft": [
         "Microsoft Office",
         "Microsoft Excel",
         "Microsoft Word"
@@ -330,7 +338,7 @@
     "outlook ms": [
         "Microsoft Outlook"
     ],
-    "microsoft outlook": [
+    "outlook microsoft": [
         "Microsoft Outlook"
     ],
     "photoshop": [
@@ -357,16 +365,16 @@
     "effect after adobe": "Adobe After Effect",
     "figma": "Figma",
     "sass": "SASS",
-    "cause root": [
+    "root cause": [
         "Root Cause \u0430\u043d\u0430\u043b\u0438\u0437"
     ],
-    "\u0430\u043d\u0430\u043b\u0438\u0437 cause root": [
+    "\u0430\u043d\u0430\u043b\u0438\u0437 root cause": [
         "Root Cause \u0430\u043d\u0430\u043b\u0438\u0437"
     ],
     "smart": [
         "\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b SMART"
     ],
-    "\u043f\u0440\u0438\u043d\u0446\u0438\u043f smart": [
+    "smart \u043f\u0440\u0438\u043d\u0446\u0438\u043f": [
         "\u043f\u0440\u0438\u043d\u0446\u0438\u043f\u044b SMART"
     ],
     "\u0432\u0435\u0440\u0441\u0442\u043a": [
@@ -377,11 +385,11 @@
         "\u0434\u0438\u0437\u0430\u0439\u043d \u0441\u0430\u0439\u0442\u043e\u0432",
         "\u0432\u0435\u0440\u0441\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
     ],
-    "\u0434\u0438\u0437\u0430\u0439\u043d \u0441\u0430\u0439\u0442": [
+    "\u0441\u0430\u0439\u0442 \u0434\u0438\u0437\u0430\u0439\u043d": [
         "\u0434\u0438\u0437\u0430\u0439\u043d \u0441\u0430\u0439\u0442\u043e\u0432",
         "\u0432\u0435\u0440\u0441\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
     ],
-    "\u0432\u0435\u0440\u0441\u0442\u043a \u0441\u0430\u0439\u0442": [
+    "\u0441\u0430\u0439\u0442 \u0432\u0435\u0440\u0441\u0442\u043a": [
         "\u0434\u0438\u0437\u0430\u0439\u043d \u0441\u0430\u0439\u0442\u043e\u0432",
         "\u0432\u0435\u0440\u0441\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
     ],
@@ -392,6 +400,10 @@
         "\u0421\u0415\u041e \u043f\u0440\u043e\u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435"
     ],
     "\u0434\u0430\u043d \u0431\u0430\u0437": [
+        "SQL",
+        "MySQL"
+    ],
+    "\u0440\u0435\u043b\u044f\u0446\u0438\u043e\u043d": [
         "SQL",
         "MySQL"
     ],
@@ -413,7 +425,7 @@
         "Apache Spark",
         "Hadoop"
     ],
-    "apache spark": [
+    "spark apache": [
         "Big data",
         "Apache Spark",
         "Hadoop"
@@ -435,6 +447,25 @@
     "github": [
         "git"
     ],
+    "\u043c\u0430\u0442\u043a\u0430\u0434": [
+        "mathcad"
+    ],
+    "mathcad": [
+        "mathcad"
+    ],
+    "latex": "LaTeX",
+    "\u043c\u0430\u0442\u043b\u0430\u0431": [
+        "MATLAB"
+    ],
+    "matlab": [
+        "MATLAB"
+    ],
+    "pascal": [
+        "Delphi"
+    ],
+    "delphi": [
+        "Delphi"
+    ],
     "\u0441\u0438": [
         "C++"
     ],
@@ -444,9 +475,41 @@
     "cpp": [
         "C++"
     ],
+    "rcpp": [
+        "C++"
+    ],
     "c++": [
         "C++"
     ],
+    "d": "D",
+    "ggplot": [
+        "R (programming language)"
+    ],
+    "tidyverse": [
+        "R (programming language)"
+    ],
+    "r shiny": [
+        "R (programming language)"
+    ],
+    "rpubs": [
+        "R (programming language)"
+    ],
+    "rstudio": [
+        "R (programming language)"
+    ],
+    "ggvis": [
+        "R (programming language)"
+    ],
+    "r": [
+        "R (programming language)"
+    ],
+    "r (programming language)": [
+        "R (programming language)"
+    ],
+    "data.table": "data.table",
+    "caret": "caret",
+    "h2o": "h2o",
+    "plotly": "plotly",
     "\u0434\u043e\u0442\u043d\u0435\u0442": [
         ".NET Core",
         ".NET Framework",
@@ -472,7 +535,7 @@
         ".NET Framework",
         "ASP.NET Core"
     ],
-    ".net core": [
+    "core .net": [
         ".NET Core",
         ".NET Framework",
         "ASP.NET Core"
@@ -482,11 +545,14 @@
         ".NET Framework",
         "ASP.NET Core"
     ],
-    "core asp.net": [
+    "asp.net core": [
         ".NET Core",
         ".NET Framework",
         "ASP.NET Core"
     ],
+    "linq": "LINQ",
+    "winforms": "Winforms",
+    "wpf": "WPF",
     "unity3d": [
         "Unity"
     ],
@@ -527,8 +593,8 @@
         "Golang"
     ],
     "": [
-        "CSS",
-        "HTML"
+        "Keras",
+        "Tensorflow"
     ],
     "java": [
         "Java",
@@ -538,6 +604,7 @@
         "Java",
         "Kotlin"
     ],
+    "python": "Python",
     "pandas": "Pandas",
     "numpy": "Numpy",
     "sklearn": [
@@ -545,6 +612,15 @@
     ],
     "scikit-learn": [
         "Scikit-learn"
+    ],
+    "pytorch": "PyTorch",
+    "keras": [
+        "Keras",
+        "Tensorflow"
+    ],
+    "tensorflow": [
+        "Keras",
+        "Tensorflow"
     ],
     "\u0444\u0440\u043e\u0442\u0435\u043d\u0434": [
         "Frontend"
@@ -576,6 +652,10 @@
     "backend": [
         "Backend"
     ],
+    "markdown": [
+        "CSS",
+        "HTML"
+    ],
     "css": [
         "CSS",
         "HTML"
@@ -584,28 +664,43 @@
         "CSS",
         "HTML"
     ],
+    "ruby rails": [
+        "Ruby on Rails"
+    ],
+    "ruby": [
+        "Ruby on Rails"
+    ],
+    "ruby rails on": [
+        "Ruby on Rails"
+    ],
     "developer": [
         "Developing"
     ],
     "developing": [
         "Developing"
     ],
-    "\u0441\u043e\u0437\u0434\u0430\u043d \u0441\u0430\u0439\u0442": [
+    "\u0441\u0430\u0439\u0442 \u0441\u043e\u0437\u0434\u0430\u043d": [
         "\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
     ],
-    "\u043f\u0440\u0438\u043c\u0435\u0440 \u0441\u0430\u0439\u0442": [
+    "\u0441\u0430\u0439\u0442 \u043f\u0440\u0438\u043c\u0435\u0440": [
         "\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
     ],
     "wordpress": [
         "\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
     ],
-    "\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a \u0441\u0430\u0439\u0442": [
+    "\u0441\u0430\u0439\u0442 \u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a": [
         "\u0440\u0430\u0437\u0440\u0430\u0431\u043e\u0442\u043a\u0430 \u0441\u0430\u0439\u0442\u043e\u0432"
+    ],
+    "vs": [
+        "Visual Studio"
+    ],
+    "visual studio": [
+        "Visual Studio"
     ],
     "ie": [
         "Internet Explorer"
     ],
-    "explorer internet": [
+    "internet explorer": [
         "Internet Explorer"
     ],
     "windows": "Windows",

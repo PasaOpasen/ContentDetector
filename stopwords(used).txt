@@ -397,6 +397,7 @@ haven
 
 ВК
 Вк
+VK
 Инстаграм
 Телеграм
 Почта
@@ -411,6 +412,10 @@ WhatsApp
 вотсап
 Вотсап
 Facebook
+Steam
+StackOverFlow
+StackOverflow
+stackoverflow
 
 # Где пакеты
 
@@ -424,7 +429,16 @@ PyPI
 
 # разные слова
 
+junior
+middle
+senior
+
+code
+Code
+
 mostly
 PC
 email
 start
+grapheme
+phoneme

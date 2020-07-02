@@ -23,7 +23,7 @@ bitrix | Битрикс
 Google Analytics
 реклама | рекламные сервисы
 математика, статистика, алгебра, комбинаторика, линейное программирование | высшая математика
-обработка данных, анализ данных | Машинное обучение, Data Sciense
+обработка данных, анализ данных, scientist, kaggle | Машинное обучение, Data Science
 
 майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word, MS word, ms excel | Microsoft Office, Microsoft Excel, Microsoft Word 
 MS Power point, power point, powerpoint | Microsoft PowerPoint
@@ -43,9 +43,24 @@ ceo | СЕО продвижение
 Apache | Big data, Apache Spark, Hadoop
 гит, Git, GitLab, GitHub | git
 
+маткад | mathcad
+LaTeX
+матлаб | MATLAB
+pascal | Delphi
 
-си, C, cpp | C++
+си, C, cpp, rcpp | C++
+D
+
+ggplot, tidyverse, R Shiny, RPubs, Rstudio, ggvis, R | R (programming language)
+data.table
+caret
+h2o
+plotly
+
 дотнет, .net, VB, C#, F# | .NET Core, .NET Framework, ASP.NET Core
+LINQ
+Winforms
+WPF
 unity3d | Unity
 js | JavaScript, TypeScript
 ReactJS | React, ReactNative
@@ -55,18 +70,23 @@ PHP
 go | Golang
 | Java, Kotlin
 
+Python
 Pandas
 Numpy
 sklearn | Scikit-learn
+PyTorch
+| Keras, Tensorflow
 
 
 
 фротенд, фронтенд, фронт-энд, full-stack, fullstack, full stack | Frontend
 бекенд, бэк-энд, full-stack, fullstack, full stack | Backend
-| CSS, HTML
+Markdown | CSS, HTML
+Ruby rails, ruby | Ruby on Rails 
 developer | Developing
 создание сайтов, примеры сайтов, wordpress | разработка сайтов
 
+VS | Visual Studio
 IE | Internet Explorer
 Windows
 Linux
