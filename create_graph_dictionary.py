@@ -113,11 +113,6 @@ class Node:
         self.out = out
         
 
-
-
-
-
-
 if __name__ == '__main__':
     g = Graph('graph_skills.txt')
     
@@ -131,6 +126,30 @@ if __name__ == '__main__':
     
     with io.open(_to,'w', encoding = 'utf-8') as f:
         json.dump(g.get_skills_dictionary(), f, indent=4)
+        
+        
+        
+    
+    from graphviz import Digraph
+    dot = Digraph(filename='gpaph.gv', 
+                  #engine='sfdp'
+                  #engine='neato'
+                  engine='fdp'
+                  )
+    #dot.attr(size='6,6')
+    
+    for node in g.nodes:
+        
+        if node.out:
+            dot.attr('node', shape='box')
+        else:
+            dot.attr('node', shape='circle')
+        
+        dot.node(f'{node.number}', node.name)
+    for node in g.nodes:
+        for n in node.withs:
+            dot.edge(f'{node.number}', f'{n}', constraint='true')
+    dot.view()
     
 
 

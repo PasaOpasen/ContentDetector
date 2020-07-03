@@ -28,7 +28,12 @@ Google Analytics
 
 обработка данных, анализ данных, scientist, kaggle | Машинное обучение, Data Science
 
-майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word, MS word, ms excel | Microsoft Office, Microsoft Excel, Microsoft Word 
+Microsoft Office
+Microsoft Excel, Microsoft Word,  Microsoft PowerPoint, Microsoft Outlook | Microsoft Office |
+майкрософт, майкрософт офис | Microsoft Office
+
+Word, MS word, ворд | Microsoft Word 
+эксель, Excel,  ms excel | Microsoft Excel
 MS Power point, power point, powerpoint | Microsoft PowerPoint
 Outlook, MS Outlook | Microsoft Outlook
 
@@ -54,7 +59,11 @@ mathcad, MATLAB, Wolfram | математические пакеты |
 LaTeX
 
 
-C++, D, JavaScript, TypeScript, C#, Python, R (programming language), F#, Java, Kotlin, Golang | программирование |
+Desktop
+Delphi | Desktop |
+
+
+C++, D, JavaScript, TypeScript, Python, R (programming language), Java, Kotlin, Golang | программирование |
 
 pascal | Delphi, программирование
 си, C, cpp, rcpp | C++
@@ -70,8 +79,10 @@ ML.NET | .NET, Машинное обучение
 
 дотнет, .net, VB, C#, F# | .NET
 LINQ | .NET |
-Winforms | Windows Forms, .NET
-Windows Presentation Foundation | WPF, .NET
+Windows Forms | .NET, Desktop |
+Winforms | Windows Forms
+WPF | .NET, Desktop
+Windows Presentation Foundation | WPF
 NUnit | тестирование кода, .NET
 
 рефакторинг | чистый код
