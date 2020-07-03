@@ -59,8 +59,11 @@ plotly
 
 дотнет, .net, VB, C#, F# | .NET Core, .NET Framework, ASP.NET Core
 LINQ
-Winforms
-WPF
+Winforms | Windows Forms
+Windows Presentation Foundation | WPF
+NUnit | тестирование кода
+рефакторинг | чистый код
+
 unity3d | Unity
 js | JavaScript, TypeScript
 ReactJS | React, ReactNative
@@ -70,7 +73,7 @@ PHP
 go | Golang
 | Java, Kotlin
 
-Python
+Spyder, PyCharm | Python
 Pandas
 Numpy
 sklearn | Scikit-learn
@@ -83,6 +86,8 @@ PyTorch
 бекенд, бэк-энд, full-stack, fullstack, full stack | Backend
 Markdown | CSS, HTML
 Ruby rails, ruby | Ruby on Rails 
+Flask
+Django
 developer | Developing
 создание сайтов, примеры сайтов, wordpress | разработка сайтов
 

@@ -131,6 +131,10 @@ def get_hard_skills(grams):
     return get_skills(grams, descriptions)
 
 
+def get_wiki_cache():
+    return {key[2:key.index(',')-1]: value for key, value in  wikipedia.search._cache.items()}
+
+
 if __name__ == '__main__':
     
     

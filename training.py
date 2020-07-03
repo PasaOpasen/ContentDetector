@@ -83,11 +83,6 @@ if __name__=='__main__':
     
     #hard_skills = get_hard_skills(h)
     
-    # get cache
-    #wikipedia.search._cache
-            
-    
-    
     
     
     
