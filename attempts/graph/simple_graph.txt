@@ -1,0 +1,11 @@
+Programming
+.NET
+Machine Learning
+
+Python | Programming |
+numpy | Python |
+R | Programming |
+ggplot2 | R |
+caret | R, Machine Learning
+ML.NET | .NET, Machine Learning
+sklearn, tensorflow | Python, Machine Learning |
