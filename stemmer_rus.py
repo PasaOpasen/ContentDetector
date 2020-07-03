@@ -18,9 +18,13 @@ def Get_dictionary_values():
 def Stem_text(text):
     return set(stemmer.stemWords(text.lower().split()))
 
-def get_stem_dictionary():
+def get_stem_dictionary(filename = 'graph_skills.json'):
+    """
+    'graph_skills.json'
+    'soft_skills.json'
+    """
     dr = os.path.dirname(__file__)
-    with io.open(os.path.join(dr, 'soft_skills.json'),'r', encoding = 'utf-8') as f:
+    with io.open(os.path.join(dr, filename),'r', encoding = 'utf-8') as f:
         r = json.load(f)
     print(r)
     return r

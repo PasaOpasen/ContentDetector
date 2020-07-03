@@ -1,15 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Jul  3 14:34:47 2020
+Created on Fri Jul  3 16:37:43 2020
 
 @author: qtckp
 """
 
-import io
-
-
-def text_prep(text):
-    return text[::-1]
+import io, os
+from stemmer_rus import Stem_text
+import json
 
 
 
@@ -108,7 +106,7 @@ class Graph:
 
 class Node:
     def __init__(self, name, number, withs = [], out = True):
-        self.key = text_prep(name)
+        self.key = ' '.join(list(Stem_text(name)))
         self.name = name
         self.number = number
         self.withs = withs
@@ -121,15 +119,24 @@ class Node:
 
 
 if __name__ == '__main__':
-    g = Graph('simple_graph.txt')
+    g = Graph('graph_skills.txt')
     
     g.print()
 
     print()
     g.print_content()
     
-    print()
-    print(g.get_skills('R'))
+    dr = os.path.dirname(__file__)
+    _to = os.path.join(dr, 'graph_skills.json')
+    
+    with io.open(_to,'w', encoding = 'utf-8') as f:
+        json.dump(g.get_skills_dictionary(), f, indent=4)
+    
+
+
+
+
+
 
 
 

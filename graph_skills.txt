@@ -1,0 +1,118 @@
+английский
+немецкий
+арабский
+персидский | фарси
+
+грамотный, объяснить, понимаю | грамотность
+внимательный, сосредотачиваться, сосредоточенность | внимательность 
+ответственный | ответственность
+менеджмент, менеджер, управление, руководить, глава, принимать решения | лидерские качества
+умею убеждать, обосновать, презентовать | лидерские качества, умение убеждать
+
+заводить друзей, общаться, общительность, общительный, излагать мысли | коммуникабельность, дружелюбность
+дисциплина, дисциплинирован, самостоятельно | организованность
+командная работа | умение работать в команде
+вовремя, заранее, аккуратность | пунктуальность, исполнительность
+компромисс, уступить, выполнять указания, критика, готов, готова | гибкость
+сложные задачи | креативность
+аналитика, аналитический | критическое мышление
+
+изучать, узнавать, учиться, хорошая память, саморазвитие, обучаюсь, учусь | обучаемость
+выдержка, выдерживать, терпеть | стрессоустойчивость
+
+1С
+bitrix | Битрикс
+Google Analytics
+реклама | рекламные сервисы
+математика, статистика, алгебра, комбинаторика, линейное программирование | высшая математика
+
+обработка данных, анализ данных, scientist, kaggle | Машинное обучение, Data Science
+
+майкрософт офис, майкрософт, ворд, паблишер, эксель, Excel, Word, MS word, ms excel | Microsoft Office, Microsoft Excel, Microsoft Word 
+MS Power point, power point, powerpoint | Microsoft PowerPoint
+Outlook, MS Outlook | Microsoft Outlook
+
+Photoshop, фотошоп | Adobe Photoshop
+Illustrator, иллюстратор, Ai | Adobe Illustrator
+Adobe After Effect
+Figma
+SASS
+root cause | Root Cause анализ
+SMART | принципы SMART
+вёрстка, парсинг | дизайн сайтов, верстка сайтов
+ceo | СЕО продвижение
+
+базы данных, реляционный | SQL, MySQL
+Apache | Big data, Apache Spark, Hadoop
+гит, Git, GitLab, GitHub | git
+
+математические пакеты
+mathcad, MATLAB, Wolfram | математические пакеты | 
+маткад | mathcad
+матлаб | MATLAB
+
+LaTeX
+
+
+C++, D, JavaScript, TypeScript, C#, Python, R (programming language), F#, Java, Kotlin, Golang | программирование |
+
+pascal | Delphi, программирование
+си, C, cpp, rcpp | C++
+
+ggplot, tidyverse, R Shiny, RPubs, Rstudio, ggvis, R | R (programming language)
+data.table | R (programming language)
+caret | R (programming language), Машинное обучение
+h2o | R (programming language), Машинное обучение
+plotly
+
+.NET Core, .NET Framework, ASP.NET Core, Xamarin | .NET |
+ML.NET | .NET, Машинное обучение
+
+дотнет, .net, VB, C#, F# | .NET
+LINQ | .NET |
+Winforms | Windows Forms, .NET
+Windows Presentation Foundation | WPF, .NET
+NUnit | тестирование кода, .NET
+
+рефакторинг | чистый код
+
+unity3d | Unity
+js | JavaScript, TypeScript, разработка сайтов
+React, ReactNative | js |
+ReactJS | React, ReactNative
+Redux
+Angular | js |
+PHP | программирование, Backend |
+go | Golang
+
+Spyder, PyCharm | Python
+Pandas | Python |
+Numpy | Python |
+Scikit-learn | Машинное обучение, Python |
+sklearn | Scikit-learn
+PyTorch | Машинное обучение, Python |
+Keras, Tensorflow | Машинное обучение, Python |
+
+
+Frontend | разработка сайтов |
+FullStack | Frontend, Backend |
+full-stack, fullstack, full stack | FullStack
+
+CSS, HTML | разработка сайтов |
+фротенд, фронтенд, фронт-энд | Frontend
+бекенд, бэк-энд | Backend
+Markdown | CSS, HTML
+Ruby rails, ruby | Ruby on Rails 
+Flask | Python |
+Django | Python, Backend |
+developer | Developing, программирование
+
+создание сайтов, примеры сайтов, wordpress | разработка сайтов
+
+VS | Visual Studio
+IE | Internet Explorer
+Windows
+Linux
+
+
+
