@@ -24,14 +24,14 @@
 bitrix | Битрикс
 Google Analytics
 реклама | рекламные сервисы
-математика, статистика, алгебра, комбинаторика, линейное программирование | высшая математика
+математика, алгебра, комбинаторика, линейное программирование | высшая математика
+статистика | высшая математика |
 
 обработка данных, анализ данных, scientist, kaggle | Машинное обучение, Data Science
 
 Microsoft Office
 Microsoft Excel, Microsoft Word,  Microsoft PowerPoint, Microsoft Outlook | Microsoft Office |
 майкрософт, майкрософт офис | Microsoft Office
-
 Word, MS word, ворд | Microsoft Word 
 эксель, Excel,  ms excel | Microsoft Excel
 MS Power point, power point, powerpoint | Microsoft PowerPoint
@@ -47,9 +47,13 @@ SMART | принципы SMART
 вёрстка, парсинг | дизайн сайтов, верстка сайтов
 ceo | СЕО продвижение
 
-базы данных, реляционный | SQL, MySQL
+SQL | базы данных |
+реляционный | SQL
+
+MySQL, PostgreSQL | SQL |
+
 Apache | Big data, Apache Spark, Hadoop
-гит, Git, GitLab, GitHub | git
+гит, Git, GitLab, GitHub, bitbucket | git
 
 математические пакеты
 mathcad, MATLAB, Wolfram | математические пакеты | 
@@ -63,7 +67,9 @@ Desktop
 Delphi | Desktop |
 
 
-C++, D, JavaScript, TypeScript, Python, R (programming language), Java, Kotlin, Golang | программирование |
+C++, D, JavaScript, TypeScript, Python, R (programming language), Java,  Golang | программирование |
+мобильная разработка | программирование |
+Kotlin | мобильная разработка |
 
 pascal | Delphi, программирование
 си, C, cpp, rcpp | C++
@@ -74,7 +80,8 @@ caret | R (programming language), Машинное обучение
 h2o | R (programming language), Машинное обучение
 plotly
 
-.NET Core, .NET Framework, ASP.NET Core, Xamarin | .NET |
+.NET Core, .NET Framework, ASP.NET Core | .NET |
+Xamarin | .NET, мобильная разработка |
 ML.NET | .NET, Машинное обучение
 
 дотнет, .net, VB, C#, F# | .NET
@@ -87,12 +94,13 @@ NUnit | тестирование кода, .NET
 
 рефакторинг | чистый код
 
+Unity | разработка игр |
 unity3d | Unity
+
 js | JavaScript, TypeScript, разработка сайтов
 React, ReactNative | js |
 ReactJS | React, ReactNative
-Redux
-Angular | js |
+Redux, Angular | js |
 PHP | программирование, Backend |
 go | Golang
 
@@ -104,15 +112,19 @@ sklearn | Scikit-learn
 PyTorch | Машинное обучение, Python |
 Keras, Tensorflow | Машинное обучение, Python |
 
+NLP | Машинное обучение |
+NLTK | NLP, Python |
+
+
 
 Frontend | разработка сайтов |
 FullStack | Frontend, Backend |
 full-stack, fullstack, full stack | FullStack
 
-CSS, HTML | разработка сайтов |
+CSS, HTML | разработка сайтов, верстка сайтов |
 фротенд, фронтенд, фронт-энд | Frontend
 бекенд, бэк-энд | Backend
-Markdown | CSS, HTML
+Markdown | HTML
 Ruby rails, ruby | Ruby on Rails 
 Flask | Python |
 Django | Python, Backend |

@@ -15,7 +15,7 @@ class Graph:
     def __init__(self, filename):
         with io.open(filename, 'r', encoding = 'utf-8') as f:
             lines = [line.strip() for line in f.readlines()]
-        lines = filter(lambda line: len(line), lines)
+        lines = filter(lambda line: len(line) > 0 and not line.startswith('#'), lines)
         
         self.nodes = []
         self.counter = 0
