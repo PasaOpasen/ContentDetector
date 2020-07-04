@@ -100,6 +100,48 @@ class Graph:
     
     def get_skills_dictionary(self):
         return {node.key: node.content for node in self.nodes}
+    
+    def rewrite_graph(self, from_file, to_file):
+        """
+        перезаписывает файл графа так, чтоб корни определялись до первого использования
+        это нужно затем, чтоб не случалось переопределений хотя бы самых основных навыков
+        """
+        
+        names = [node.name for node in self.nodes if len(node.withs) == 0]
+        
+        with io.open(from_file, 'r', encoding = 'utf-8') as f:
+            lines = [line for line in f.readlines()]
+        
+        for name in names:
+            
+            definition = position = len(lines)
+            
+            for i, line in enumerate(lines):
+                s = line.strip()
+                if len(s)>0:
+                    path = s.split('|')
+                    words = path[0].split(',')
+                    if len(path)>1:
+                        words+=path[1].split(',')
+                    
+                    words = [word.strip() for word in words]
+                    #print(words)
+                    
+                    if len(words)==1 and words[0] == name:
+                        definition = i
+                    elif name in words and position == len(lines):
+                        position = i
+            
+            if position < definition:
+                print(f'position of first using of {name}({position}) is upper than definition ({definition if definition < len(lines) else "no definition"})')
+                lines.insert(position, name+'\n')
+            
+        
+            
+        with io.open(to_file, 'w', encoding = 'utf-8') as f:
+            f.writelines([line+'\n' for line in lines])
+        
+        
 
 
 
@@ -130,26 +172,29 @@ if __name__ == '__main__':
         
         
     
-    from graphviz import Digraph
-    dot = Digraph(filename='gpaph.gv', 
-                  #engine='sfdp'
-                  #engine='neato'
-                  engine='fdp'
-                  )
-    #dot.attr(size='6,6')
+    # from graphviz import Digraph
+    # dot = Digraph(filename='gpaph.gv', 
+    #               #engine='sfdp'
+    #               #engine='neato'
+    #               engine='fdp'
+    #               )
+    # #dot.attr(size='6,6')
     
-    for node in g.nodes:
+    # for node in g.nodes:
         
-        if node.out:
-            dot.attr('node', shape='box')
-        else:
-            dot.attr('node', shape='circle')
+    #     if node.out:
+    #         dot.attr('node', shape='box')
+    #     else:
+    #         dot.attr('node', shape='circle')
         
-        dot.node(f'{node.number}', node.name)
-    for node in g.nodes:
-        for n in node.withs:
-            dot.edge(f'{node.number}', f'{n}', constraint='true')
-    dot.view()
+    #     dot.node(f'{node.number}', node.name)
+    # for node in g.nodes:
+    #     for n in node.withs:
+    #         dot.edge(f'{node.number}', f'{n}', constraint='true')
+    # dot.view()
+    
+    
+    #g.rewrite_graph('graph_skills.txt','graph2_skills.txt')
     
 
 
