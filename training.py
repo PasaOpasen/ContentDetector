@@ -18,13 +18,13 @@ from prepare_functions import *
 
 my_dir = os.path.dirname(__file__)
 
-files = [os.path.join(my_dir,'train_samples',f'{i}.txt') for i in range (0,11)]
+files = [os.path.join(my_dir,'train_samples',f'{i}.txt') for i in range (0,25)]
 
 
 if __name__=='__main__':
     
     
-    with io.open(files[0],'r', encoding = 'utf-8') as f:
+    with io.open(files[21],'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     grams = txt_list_to_grams(doclines,0)

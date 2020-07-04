@@ -12,6 +12,10 @@ from detect_functions import levenshtein_distance_better, levenshtein_distance
 from Ngrams import txt_list_to_grams, print_list
 import numpy as np
 
+import multiprocessing
+from joblib import Parallel, delayed
+
+num_cores = multiprocessing.cpu_count()
 
 
 
@@ -124,9 +128,9 @@ def get_skills(grams, descriptions):
 
 def get_hard_skills(grams):
     
-    print(f'Read wiki...')
-    
-    descriptions = [wikipedia.search(n) for n in grams]
+    print(f'Read wiki ({len(grams)} grams)...')
+    descriptions = Parallel(n_jobs=num_cores)(delayed(wikipedia.search)(i) for i in grams)
+    #descriptions = [wikipedia.search(n) for n in grams]
     
     return get_skills(grams, descriptions)
 

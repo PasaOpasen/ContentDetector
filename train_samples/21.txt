@@ -1,0 +1,23 @@
+Ищу работу по причине переезда в Краснодар.
+
+Лидерские и организаторские способности, креативное мышление, нестандартный подход,
+умение аргументированно вести беседу, навыки командной работы, отличалась широким кругозором,
+быстро усваиваю новую информацию в больших объемах, обладаю хорошим чувством юмора,
+не имею вредных привычек.
+
+Профессиональные навыки:
+- Знание аппаратных и программных составляющих ПК, серверов, периферийных устройств;
+- Администрирование серверов и рабочих станций подд управлением ОС Windows, Unix,
+Linux, FreeBSD, Android.
+- Конфигурирование активного сетевого оборудования cisco, cisco asa, mikrotik, zyxel,
+d-link, tp-link, ubiquiti и др.
+- Системы виртуализации Hyper-V, ESXI, Proxmox, Docker, Xen.
+- Сетевые протоколы IEEE 802.11, L2TP, PPP, PPTP, NDP, STP, VTP, ARP, RARP, ICMP,
+IPV4, IPV6, IPsec, OSPF, BGP, RIP, GRE, TCP, UDP, NFS, SBM, Socks, DNS, FTP, HTTP, IMAP,
+IRC, NTP, SSH, SMTP, SNMP, Telnet, TFTP и т.д.
+- MySQL, PostreSQL, MongoDB, Apache, Nginx, Squid, Samba, основы HTML, CSS, JS, Python, Jango и т.д.
+ELK, Zabbix, Grafana и т.д.
+
+- Системы видеонаблюдения HikVision(hiwatch), RVi Group, Falcon Eye, Dahua, trassir и т.д.
+
+И еще много разных полезных штук, все так сразу и не перечислить.

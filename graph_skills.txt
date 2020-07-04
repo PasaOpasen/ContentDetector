@@ -7,29 +7,44 @@
 внимательный, сосредотачиваться, сосредоточенность | внимательность 
 ответственный | ответственность
 менеджмент, менеджер, управление, руководить, глава, принимать решения | лидерские качества
-умею убеждать, обосновать, презентовать | лидерские качества, умение убеждать
+умею убеждать, обосновать, презентовать, аргументированно  | лидерские качества, умение убеждать
 
-заводить друзей, общаться, общительность, общительный, излагать мысли | коммуникабельность, дружелюбность
-дисциплина, дисциплинирован, самостоятельно | организованность
+заводить друзей, общаться, общительность, общительный, излагать мысли, коммуникабелен | коммуникабельность, дружелюбность
+активность | дружелюбность
+дисциплина, дисциплинирован, самостоятельно, организовывать, планировать, самоорганизацией  | организованность
 командная работа | умение работать в команде
 вовремя, заранее, аккуратность | пунктуальность, исполнительность
+трудоголик | исполнительность
 компромисс, уступить, выполнять указания, критика, готов, готова | гибкость
-сложные задачи | креативность
-аналитика, аналитический | критическое мышление
+сложные задачи, нестандартный | креативность
+аналитика, аналитический, логическое мышление, технический склад ума | критическое мышление
 
-изучать, узнавать, учиться, хорошая память, саморазвитие, обучаюсь, учусь | обучаемость
-выдержка, выдерживать, терпеть | стрессоустойчивость
+изучать, узнавать, учиться, хорошая память, саморазвитие, обучаюсь, учусь, развитие, обучение, новую информацию | обучаемость
+выдержка, выдерживать, терпеть, стрессоустойчив | стрессоустойчивость
+
+
+Docker | развертывание приложений |
+
+сетевые протоколы
+cisco, IPV4, IPV6, TCP, UDP, NFS,  DNS, FTP, HTTP, Telnet | сетевые протоколы |
 
 1С
+1C | 1С
 bitrix | Битрикс
 Google Analytics
 реклама | рекламные сервисы
 математика, алгебра, комбинаторика, линейное программирование | высшая математика
 статистика | высшая математика |
 
+защита информации, информационная безопасность | информационные системы |
+компьютерные системы, IT, компьютерные сети, ПК, сервера | информационные системы
+
+информатика | IT, высшая математика
+
 обработка данных, анализ данных, scientist, kaggle | Машинное обучение, Data Science
 
 Microsoft Office
+MS Office, Office, Microsoft | Microsoft Office
 Microsoft Excel, Microsoft Word,  Microsoft PowerPoint, Microsoft Outlook | Microsoft Office |
 майкрософт, майкрософт офис | Microsoft Office
 Word, MS word, ворд | Microsoft Word 
@@ -37,7 +52,7 @@ Word, MS word, ворд | Microsoft Word
 MS Power point, power point, powerpoint | Microsoft PowerPoint
 Outlook, MS Outlook | Microsoft Outlook
 
-Photoshop, фотошоп | Adobe Photoshop
+Photoshop, фотошоп, Ps, Adobe Ps | Adobe Photoshop
 Illustrator, иллюстратор, Ai | Adobe Illustrator
 Adobe After Effect
 Figma
@@ -47,10 +62,15 @@ SMART | принципы SMART
 вёрстка, парсинг | дизайн сайтов, верстка сайтов
 ceo | СЕО продвижение
 
+
 SQL | базы данных |
 реляционный | SQL
 
 MySQL, PostgreSQL | SQL |
+
+NoSQL | базы данных |
+MongoDB | NoSQL |
+нереляционный | NoSQL
 
 Apache | Big data, Apache Spark, Hadoop
 гит, Git, GitLab, GitHub, bitbucket | git
@@ -60,16 +80,20 @@ mathcad, MATLAB, Wolfram | математические пакеты |
 маткад | mathcad
 матлаб | MATLAB
 
-LaTeX
-
+научная деятельность
+LaTeX | научная деятельность |
+статей, статьи, доклад, конференция | научная деятельность
 
 Desktop
 Delphi | Desktop |
 
 
 C++, D, JavaScript, TypeScript, Python, R (programming language), Java,  Golang | программирование |
+С++ | C++
+Matplolib | Python
+Open CV | Машинное обучение |
 мобильная разработка | программирование |
-Kotlin | мобильная разработка |
+
 
 pascal | Delphi, программирование
 си, C, cpp, rcpp | C++
@@ -79,9 +103,9 @@ data.table | R (programming language)
 caret | R (programming language), Машинное обучение
 h2o | R (programming language), Машинное обучение
 plotly
+распознавание, OCR | Машинное обучение
 
 .NET Core, .NET Framework, ASP.NET Core | .NET |
-Xamarin | .NET, мобильная разработка |
 ML.NET | .NET, Машинное обучение
 
 дотнет, .net, VB, C#, F# | .NET
@@ -91,6 +115,7 @@ Winforms | Windows Forms
 WPF | .NET, Desktop
 Windows Presentation Foundation | WPF
 NUnit | тестирование кода, .NET
+тестирование, тесты | тестирование кода
 
 рефакторинг | чистый код
 
@@ -128,14 +153,34 @@ Markdown | HTML
 Ruby rails, ruby | Ruby on Rails 
 Flask | Python |
 Django | Python, Backend |
+Jango | Django
 developer | Developing, программирование
 
 создание сайтов, примеры сайтов, wordpress | разработка сайтов
 
-VS | Visual Studio
-IE | Internet Explorer
+
 Windows
 Linux
+UNIX
+
+Ubuntu | Linux
+
+bash | Linux
+
+Apple
+Apple OS X | Apple
+Mac OS X | Apple
+Swift | Apple, программирование |
+iOS | Apple, мобильная разработка
+Android | мобильная разработка |
+
+Xamarin | .NET, iOS, Android |
+Kotlin | Android |
+
+VS | Visual Studio
+IE | Internet Explorer, Windows
+MS Windows | Windows
+
 
 
 

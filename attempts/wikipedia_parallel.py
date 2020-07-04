@@ -23,7 +23,7 @@ def wiki_search(text, dictionary):
 pool = Pool(os.cpu_count())
 
 
-%time r1 = [wikipedia.search(f's{i}') for i in range(30)] # 36 secs
+%time r1 = [wikipedia.search(f's{i}') for i in range(15)] # 36 secs
 
 # не прекращается
 %time r2 = pool.map(pickle_search, [f'p{i}' for i in range(30)]) # don't stop working
@@ -74,9 +74,16 @@ print(result_list)
 
 
 
+# работает намного быстрее (в десяток раз)
+
+import multiprocessing
+from joblib import Parallel, delayed
+
+num_cores = multiprocessing.cpu_count()
+inputs = [f'е{i}' for i in range(30)]
 
 
-
+%time processed_list = Parallel(n_jobs=num_cores)(delayed(wikipedia.search)(i) for i in inputs)
 
 
 
