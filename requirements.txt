@@ -1,0 +1,4 @@
+joblib==0.15.1
+numpy==1.18.4
+PyStemmer==2.0.0.1
+wikipedia==1.4.0

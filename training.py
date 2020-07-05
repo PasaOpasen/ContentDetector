@@ -76,12 +76,13 @@ if __name__=='__main__':
     #     del h[i]
     
     print()
-    print(f'Softs: {soft_skills}')
+    print(f'from graph: {soft_skills}')
     print()
-    print(f'to hard: {h}')
+    print(f'to wiki: {h}')
+    print()
     
     
-    #hard_skills = get_hard_skills(h)
+    hard_skills = get_hard_skills(h); print(f'from wiki: {hard_skills}')
     
     
     

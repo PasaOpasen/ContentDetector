@@ -6,7 +6,7 @@ Created on Mon Jun 29 16:11:56 2020
 """
 
 
-import textblob as tb
+#import textblob as tb
 import io
 #import nltk
 #nltk.download('stopwords')
@@ -33,7 +33,7 @@ def print_list(lst):
     print()
 
 
-with open(CorrectPath('stopwords(used).txt'), 'r') as f:
+with io.open(CorrectPath('stopwords(used).txt'), 'r', encoding = 'utf-8') as f:
     splitter = [w.rstrip() for w in f.readlines() if not w.startswith('#') and len(w)>1]
 
 

@@ -166,7 +166,9 @@ if __name__ == '__main__':
     dr = os.path.dirname(__file__)
     _to = os.path.join(dr, 'graph_skills.json')
     
-    with io.open(_to,'w', encoding = 'utf-8') as f:
+    #with io.open(_to,'w', encoding = 'utf-8') as f:
+    #with open(_to,'w', encoding = 'utf-8') as f:
+    with open(_to,'w', encoding = 'utf-8') as f:
         json.dump(g.get_skills_dictionary(), f, indent=4)
         
         
