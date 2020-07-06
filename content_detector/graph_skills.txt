@@ -129,7 +129,8 @@ unity3d | Unity
 js | JavaScript, TypeScript, разработка сайтов
 React, ReactNative | js |
 ReactJS | React, ReactNative
-Redux, Angular | js |
+Redux, Angular, VueJS | js |
+vue.js | VueJS
 PHP | программирование, Backend |
 PHP7 | PHP
 Laravel | PHP | 
