@@ -51,7 +51,7 @@ Microsoft Excel, Microsoft Word,  Microsoft PowerPoint, Microsoft Outlook | Micr
 майкрософт, майкрософт офис | Microsoft Office
 Word, MS word, ворд | Microsoft Word 
 эксель, Excel,  ms excel | Microsoft Excel
-MS Power point, power point, powerpoint | Microsoft PowerPoint
+MS Power point, power point, powerpoint, пп | Microsoft PowerPoint
 Outlook, MS Outlook | Microsoft Outlook
 
 Photoshop, фотошоп, Ps, Adobe Ps | Adobe Photoshop
@@ -145,7 +145,9 @@ PyTorch | Машинное обучение, Python |
 Keras, Tensorflow | Машинное обучение, Python |
 
 NLP | Машинное обучение |
-NLTK | NLP, Python |
+NLTK, Gensim | NLP, Python |
+обработка языка, обработка текста, обработка естественного | NLP
+
 
 
 

@@ -91,6 +91,11 @@ class Graph:
         for node in self.nodes:
             print(f'{node.name} --> {node.content}')
             
+        print()
+        skills = [node.name for node in self.nodes if node.out]
+        print(f'total nodes: {len(self.nodes)}')
+        print(f'total skills = {len(skills)}: {skills}')
+            
     def get_skills(self, ngramma):
         result = []
         for node in self.nodes:
@@ -141,9 +146,28 @@ class Graph:
         with io.open(to_file, 'w', encoding = 'utf-8') as f:
             f.writelines([line+'\n' for line in lines])
         
+    
+    def show_graph_pdf(self):
+        from graphviz import Digraph
+        dot = Digraph(filename='gpaph.gv', 
+                      #engine='sfdp'
+                      #engine='neato'
+                      engine='fdp'
+                      )
+        #dot.attr(size='6,6')
         
-
-
+        for node in g.nodes:
+            
+            if node.out:
+                dot.attr('node', shape='box')
+            else:
+                dot.attr('node', shape='circle')
+            
+            dot.node(f'{node.number}', node.name)
+        for node in g.nodes:
+            for n in node.withs:
+                dot.edge(f'{node.number}', f'{n}', constraint='true')
+        dot.view()
 
 
 class Node:
@@ -172,29 +196,7 @@ if __name__ == '__main__':
         json.dump(g.get_skills_dictionary(), f, indent=4)
         
         
-        
-    
-    # from graphviz import Digraph
-    # dot = Digraph(filename='gpaph.gv', 
-    #               #engine='sfdp'
-    #               #engine='neato'
-    #               engine='fdp'
-    #               )
-    # #dot.attr(size='6,6')
-    
-    # for node in g.nodes:
-        
-    #     if node.out:
-    #         dot.attr('node', shape='box')
-    #     else:
-    #         dot.attr('node', shape='circle')
-        
-    #     dot.node(f'{node.number}', node.name)
-    # for node in g.nodes:
-    #     for n in node.withs:
-    #         dot.edge(f'{node.number}', f'{n}', constraint='true')
-    # dot.view()
-    
+    g.show_graph_pdf()
     
     #g.rewrite_graph('graph_skills.txt','graph2_skills.txt')
     

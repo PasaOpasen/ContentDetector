@@ -18,7 +18,7 @@ from prepare_functions import *
 
 
 
-def get_content_from_text(lines_of_text):
+def get_content_from_text(lines_of_text, use_wiki = True):
     
     grams = txt_list_to_grams(lines_of_text,0)
     #print(grams)
@@ -35,15 +35,17 @@ def get_content_from_text(lines_of_text):
     #print(s);print(h)
     soft_skills = get_soft_skills2(s, h)
     
-    if len(h)>0:
+    if len(h)>0 and use_wiki:
     
         hard_skills = get_hard_skills(h)
     
         soft_skills_lower = [word.lower() for word in soft_skills]
         
         h = [answer for answer in hard_skills if answer.lower() not in soft_skills_lower]
+        
+        return soft_skills + h
     
-    return soft_skills + h
+    return soft_skills
 
 
 
