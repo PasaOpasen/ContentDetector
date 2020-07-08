@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594200388813.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "304053717",
+    "id" : "DEE3F7AD",
+    "lastKnownWriteTime" : 1594201681,
+    "last_content_update" : 1594201681611,
+    "path" : "C:/Users/qtckp/OneDrive/Рабочий стол/GraphFitting/clean_data.R",
+    "project_path" : "clean_data.R",
+    "properties" : {
+        "cursorPosition" : "3,48",
+        "scrollLine" : "0"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

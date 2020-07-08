@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1594202740665.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1271855000",
+    "id" : "6026DD3C",
+    "lastKnownWriteTime" : 1594202777,
+    "last_content_update" : 1594202777076,
+    "path" : "C:/Users/qtckp/OneDrive/Рабочий стол/GraphFitting/table_watching.R",
+    "project_path" : "table_watching.R",
+    "properties" : {
+        "cursorPosition" : "4,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
