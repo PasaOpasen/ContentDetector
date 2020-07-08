@@ -5,7 +5,8 @@ Created on Fri Jul  3 16:37:43 2020
 @author: qtckp
 """
 
-import io, os
+import sys, os, io
+sys.path.append(os.path.dirname(__file__))
 from stemmer_rus import Stem_text
 import json
 
@@ -168,6 +169,21 @@ class Graph:
             for n in node.withs:
                 dot.edge(f'{node.number}', f'{n}', constraint='true')
         dot.view()
+        
+    @staticmethod    
+    def update_graph():
+        dr = os.path.dirname(__file__)
+        g = Graph(os.path.join(dr,'graph_skills.txt'))
+        
+        print()
+        g.print_content()
+           
+        _to = os.path.join(dr, 'graph_skills.json')
+        
+        #with io.open(_to,'w', encoding = 'utf-8') as f:
+        #with open(_to,'w', encoding = 'utf-8') as f:
+        with open(_to,'w', encoding = 'utf-8') as f:
+            json.dump(g.get_skills_dictionary(), f, indent=4)
 
 
 class Node:
@@ -196,7 +212,7 @@ if __name__ == '__main__':
         json.dump(g.get_skills_dictionary(), f, indent=4)
         
         
-    g.show_graph_pdf()
+    #g.show_graph_pdf()
     
     #g.rewrite_graph('graph_skills.txt','graph2_skills.txt')
     

@@ -18,7 +18,7 @@ from prepare_functions import *
 
 
 
-def get_content_from_text(lines_of_text, use_wiki = True):
+def get_content_from_text(lines_of_text, use_wiki = True, vocab = None):
     
     grams = txt_list_to_grams(lines_of_text,0)
     #print(grams)
@@ -33,7 +33,10 @@ def get_content_from_text(lines_of_text, use_wiki = True):
         else:
             h.append(g)
     #print(s);print(h)
-    soft_skills = get_soft_skills2(s, h)
+    if vocab == None:
+        soft_skills = get_soft_skills2(s, h)
+    else:
+        soft_skills = get_soft_skills2(s, h, vocab)
     
     if len(h)>0 and use_wiki:
     

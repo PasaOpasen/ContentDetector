@@ -48,7 +48,7 @@ def get_soft_skills(grams):
                 result.append(value)
     return list(set(result))
 
-def get_soft_skills2(s_grams, h_grams):
+def get_soft_skills2(s_grams, h_grams, vocab = dictionary):
     """
     работает как get_soft_skills(s_grams + h_grams),
     но удаляет лишнее из h_grams
@@ -58,7 +58,7 @@ def get_soft_skills2(s_grams, h_grams):
     for g in s_grams + h_grams:
         full=full.union(Stem_text(g))
     #print(full)
-    voc = dictionary
+    voc = vocab
     
     result = []
     result_set = set()
@@ -82,4 +82,7 @@ def get_soft_skills2(s_grams, h_grams):
     return list(set(result))
 
 
+def update_dictionary():
+    global dictionary
+    dictionary = get_stem_dictionary()
 

@@ -107,7 +107,8 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     
     for obj in commas:
         #sentences += [str(sent) for sent in tb.TextBlob(obj).sentences] 
-        for sentence in get_sentences(obj): # split by .    
+        for sentence in get_sentences(obj): # split by .  
+            #print(sentence)
             sentences +=  split_by_words2(sentence, splitter) # split by stopwords #get_sentences(obj)
     
     if debug:
@@ -181,7 +182,7 @@ if __name__=='__main__':
     
     # 1) read file
     
-    with io.open(CorrectPath('my_resume.txt'),'r', encoding = 'utf-8') as f:
+    with io.open(CorrectPath('1.txt'),'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     original_stdout = sys.stdout
