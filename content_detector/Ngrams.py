@@ -182,7 +182,7 @@ if __name__=='__main__':
     
     # 1) read file
     
-    with io.open(CorrectPath('1.txt'),'r', encoding = 'utf-8') as f:
+    with io.open(CorrectPath('2.txt'),'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     original_stdout = sys.stdout
