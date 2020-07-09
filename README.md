@@ -66,7 +66,7 @@ print(get_content_from_text(lines, use_wiki = False))
 
 ```
 
-Считывается [файл с моим резюме](https://github.com/PasaOpasen/ContentDetector/blob/master/my_resume.txt) ([источник](https://github.com/PasaOpasen/PasaOpasen.github.io)).
+Выше считывается [файл с моим резюме](https://github.com/PasaOpasen/ContentDetector/blob/master/my_resume.txt) ([источник](https://github.com/PasaOpasen/PasaOpasen.github.io)).
 
 # Как это работает
 
