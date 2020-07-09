@@ -58,7 +58,11 @@ with open("my_resume.txt", 'r', encoding = 'utf-8') as f:
      lines = f.readlines()
 print(get_content_from_text(lines, use_wiki = False))
 
-#['научная деятельность', 'Adobe Illustrator', 'TypeScript', 'mathcad', 'Microsoft Office', 'plotly', 'Keras', 'верстка сайтов', 'HTML', 'пакет Adobe', 'грамотность', #'программирование', 'Java', 'SQL', 'Data Science', 'LINQ', 'математические пакеты', 'Python', 'D', 'Scikit-learn', 'Delphi', 'статистика', 'Visual Studio', 'C++', 'фарси', #'высшая математика', 'английский', 'LaTeX', '.NET Framework', 'Windows Forms', 'чистый код', 'документация', 'разработка сайтов', 'гибкость', 'Developing', 'базы данных', #'Windows', 'JavaScript', '.NET', 'R (programming language)', 'Desktop', 'Microsoft Excel', 'git', 'тестирование кода', 'Numpy', 'обучаемость', 'ООП', 'Pandas', 'Microsoft Word', 'Машинное обучение'
+#['научная деятельность', 'Adobe Illustrator', 'TypeScript', 'mathcad', 'Microsoft Office', 'plotly', 'Keras', 'верстка сайтов', 'HTML', 'пакет Adobe', 'грамотность',
+#'программирование', 'Java', 'SQL', 'Data Science', 'LINQ', 'математические пакеты', 'Python', 'D', 'Scikit-learn', 'Delphi', 'статистика', 'Visual Studio', 'C++', 'фарси',
+#'высшая математика', 'английский', 'LaTeX', '.NET Framework', 'Windows Forms', 'чистый код', 'документация', 'разработка сайтов', 'гибкость', 'Developing', 'базы данных',
+#'Windows', 'JavaScript', '.NET', 'R (programming language)', 'Desktop', 'Microsoft Excel', 'git', 'тестирование кода', 'Numpy', 'обучаемость', 'ООП', 'Pandas', 
+#'Microsoft Word', 'Машинное обучение'
 
 ```
 
