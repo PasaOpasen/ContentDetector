@@ -42,10 +42,11 @@ with io.open(CorrectPath('stopwords(used).txt'), 'r', encoding = 'utf-8') as f:
 def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
         
     if debug:
+        beg = '------> '
         file = open(out_file,'w')
         sys.stdout = file
         
-        print('BEGIN:')
+        print(beg+'BEGIN:')
         print_list(lines)
     
     
@@ -57,7 +58,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     
     if debug:
         lines=list(lines)
-        print('DELETE EMPTY LINES')
+        print(beg+'DELETE EMPTY LINES')
         print_list(list(lines))
     
     # remove urls
@@ -66,7 +67,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     
     if debug:
         lines = list(lines)
-        print('DELETE URLS AND MAILS')
+        print(beg+'DELETE URLS AND MAILS')
         print_list(lines)
     
     
@@ -79,14 +80,14 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     
     if debug:
         lines=list(lines)
-        print('DELETE STRANGE SYMBOLS')
+        print(beg+'DELETE STRANGE SYMBOLS')
         print_list(list(lines))
     
     # delete multiple spaces
     lines = [' '.join(line.split()) for line in lines]
     
     if debug:
-        print('DELETE MULTIPLE SPACES')
+        print(beg+'DELETE MULTIPLE SPACES')
         print_list(lines)
     
     
@@ -95,7 +96,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
         commas += line.split(',')
     
     if debug:
-        print('SPLIT BY COMMAS')
+        print(beg+'SPLIT BY COMMAS')
         print_list(commas)
     
     # можно еще поисправлять ошибки и т п, но это не так просто
@@ -112,7 +113,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
             sentences +=  split_by_words2(sentence, splitter) # split by stopwords #get_sentences(obj)
     
     if debug:
-        print('SPLIT BY SENTENCES AND STOP WORDS')
+        print(beg+'SPLIT BY SENTENCES AND STOP WORDS')
         print_list(sentences)
     
     # remove stopwords
@@ -124,7 +125,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
                  for s in sentences]
     
     if debug:
-        print('REMOVE 1. 2. 3. 4. SYMBOLS')
+        print(beg+'REMOVE 1. 2. 3. 4. SYMBOLS')
         print_list(sentences)
     
     # split by n-grams
@@ -139,7 +140,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     
     if debug:
         ngrams = list(ngrams)
-        print('GET 1/2 NGRAMS')
+        print(beg+'GET 1/2 NGRAMS')
         print_list(ngrams)
     
     
@@ -148,7 +149,7 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     ngrams = [g for g in ngrams if len(g)>0 and any((s.isalpha() for s in g))]
     
     if debug:
-        print('DELETE NGRAMS WITHOUT ALPHA')
+        print(beg+'DELETE NGRAMS WITHOUT ALPHA')
         print_list(ngrams)
     
     
@@ -163,14 +164,14 @@ def txt_list_to_grams(lines, debug = 1, out_file = CorrectPath('report.txt')):
     ngrams = [g.lstrip(''.join(symbs)) for g in ngrams]
     
     if debug:
-        print('DELETE SYMBOLS LIKE + # ) FROM LEFT PART OF WORDS')
+        print(beg+'DELETE SYMBOLS LIKE + # ) FROM LEFT PART OF WORDS')
         print_list(ngrams)
        
     ngrams = list(set(ngrams))
     
     
     if debug:
-        print('RESULTS')
+        print(beg+'RESULTS')
         print_list(ngrams)
         file.close()
     
@@ -182,7 +183,7 @@ if __name__=='__main__':
     
     # 1) read file
     
-    with io.open(CorrectPath('2.txt'),'r', encoding = 'utf-8') as f:
+    with io.open(CorrectPath('0.txt'),'r', encoding = 'utf-8') as f:
         doclines = f.readlines()
     
     original_stdout = sys.stdout
