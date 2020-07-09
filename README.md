@@ -7,6 +7,7 @@ Detect hard/soft skills from resumes in Russian.
 
 # Как этим пользоваться
 
+Основная функция модуля $---$ это ```get_content_from_text``` из файла [detector.py](https://github.com/PasaOpasen/ContentDetector/blob/master/content_detector/detector.py). Она принимает на вход список из строк резюме и возвращает список навыков (каждый навык $--$ это просто строка)
 
 # Как это работает
 
