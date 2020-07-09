@@ -51,6 +51,17 @@ lines = ['Профессиональный опыт в сфере IT 10 лет.'
 
 Также функция имеет аргумент ```vocab = None```, что значит — использовать для основого алгоритма [словарь по умолчанию](https://github.com/PasaOpasen/ContentDetector/blob/master/content_detector/graph_skills.json). Через этот аргумент можно передать функции любой другой словарь, представляющий собой ассоциативный массив, в котором строке (маркеру) ставится в соотвествие список строк (список навыков).
 
+Строки резюме можно прочесть из текстового файла:
+
+```python
+with open("my_resume.txt", 'r', encoding = 'utf-8') as f:
+     lines = f.readlines()
+print(get_content_from_text(lines, use_wiki = False))
+
+#['научная деятельность', 'Adobe Illustrator', 'TypeScript', 'mathcad', 'Microsoft Office', 'plotly', 'Keras', 'верстка сайтов', 'HTML', 'пакет Adobe', 'грамотность', #'программирование', 'Java', 'SQL', 'Data Science', 'LINQ', 'математические пакеты', 'Python', 'D', 'Scikit-learn', 'Delphi', 'статистика', 'Visual Studio', 'C++', 'фарси', #'высшая математика', 'английский', 'LaTeX', '.NET Framework', 'Windows Forms', 'чистый код', 'документация', 'разработка сайтов', 'гибкость', 'Developing', 'базы данных', #'Windows', 'JavaScript', '.NET', 'R (programming language)', 'Desktop', 'Microsoft Excel', 'git', 'тестирование кода', 'Numpy', 'обучаемость', 'ООП', 'Pandas', 'Microsoft Word', 'Машинное обучение'
+
+```
+
 # Как это работает
 
 
