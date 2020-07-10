@@ -115,6 +115,8 @@ print(get_content_from_text(lines, use_wiki = False))
 
 -  Среди полученного *множества* n-грамм **удаляются те, что не содержат алфавитных символов**. Считается, что они не несут информации о навыках.
 
+![1](https://github.com/PasaOpasen/ContentDetector/blob/master/images/11.png)
+
 ### Пример
 <a name="example"></a>
 
