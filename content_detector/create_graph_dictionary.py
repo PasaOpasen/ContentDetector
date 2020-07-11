@@ -216,7 +216,7 @@ if __name__ == '__main__':
         json.dump(g.get_skills_dictionary(), f, indent=4)
         
         
-    #g.show_graph_pdf()
+    g.show_graph_pdf()
     
     #g.rewrite_graph('graph_skills.txt','graph2_skills.txt')
     
