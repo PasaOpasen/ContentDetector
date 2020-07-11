@@ -184,6 +184,10 @@ class Graph:
         #with open(_to,'w', encoding = 'utf-8') as f:
         with open(_to,'w', encoding = 'utf-8') as f:
             json.dump(g.get_skills_dictionary(), f, indent=4)
+            
+        with open(os.path.join(dr, 'supported_skills.txt'), 'w', encoding = 'utf-8') as f:
+            t = sorted((node.name for node in g.nodes if node.out))
+            f.writelines('\n'.join(t))
 
 
 class Node:

@@ -1,0 +1,179 @@
+.NET
+.NET Core
+.NET Framework
+1С
+ASP.NET
+Adobe After Effect
+Adobe Illustrator
+Adobe Photoshop
+Android
+Angular
+Apache Maven
+Apache Spark
+Apple
+AutoCAD
+Backend
+Big data
+Bootstrap
+C++
+CSS
+CorelDRAW
+D
+DNS
+Data Science
+Delphi
+Desktop
+Developing
+Django
+Docker
+FTP
+Figma
+Flask
+Frontend
+FullStack
+Gensim
+Golang
+Google AdWords
+Google Analytics
+HTML
+HTTP
+Hadoop
+IPV4
+IPV6
+Internet Explorer
+Java
+JavaScript
+Keras
+Kotlin
+LINQ
+LaTeX
+Laravel
+Linux
+MATLAB
+Microsoft Excel
+Microsoft Office
+Microsoft Outlook
+Microsoft PowerPoint
+Microsoft Word
+MongoDB
+MySQL
+NFS
+NLP
+NLTK
+NoSQL
+Numpy
+Open CV
+PHP
+Pandas
+PostgreSQL
+PyTorch
+Python
+QA
+Qt
+R (programming language)
+React
+ReactNative
+Redux
+Root Cause анализ
+Ruby on Rails
+SASS
+SQL
+Scala
+Scikit-learn
+SketchUp
+Spring
+Swift
+TCP
+Telnet
+Tensorflow
+TypeScript
+UDP
+UI/UX
+UNIX
+Unity
+Visual Studio
+VueJS
+Windows
+Windows Forms
+Wolfram
+XML
+Xamarin
+cisco
+git
+jQuery
+mathcad
+plotly
+web-интерфейсы
+Битрикс
+Машинное обучение
+ООП
+СЕО продвижение
+Яндекс.Директ
+Яндекс.Метрика
+английский
+арабский
+базы данных
+бизнес-логика
+бритье
+бухгалтерия
+быстрая печать
+верстка сайтов
+внимательность
+водитель
+высшая математика
+высшее образование
+гибкость
+грамотность
+дизайн
+дизайн сайтов
+документация
+дружелюбность
+защита информации
+звонки
+информационная безопасность
+информационные системы
+исполнительность
+клиентоориентированность
+коммуникабельность
+консультирование клиентов
+креативность
+критическое мышление
+лидерские качества
+математические пакеты
+медицина
+механик
+многозадачность
+мобильная разработка
+навыки продаж
+написание текстов
+научная деятельность
+немецкий
+обучаемость
+оптимизация сайтов
+организаторские навыки
+организованность
+ответственность
+пакет Adobe
+принципы SMART
+программирование
+проектирование
+пунктуальность
+развертывание приложений
+разработка игр
+разработка сайтов
+рекламные сервисы
+ремонт оборудования
+решительность
+сетевые протоколы
+сопровождение документов
+статистика
+стрессоустойчивость
+стрижки
+строительство
+тестирование кода
+умение работать в команде
+умение убеждать
+фарси
+честность
+чистый код
+юридическое сопровождение
