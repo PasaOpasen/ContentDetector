@@ -14,6 +14,7 @@ Detect hard/soft skills from resumes in Russian.
   * [Запасной алгоритм](#wiki)
 - [Почему не нейронная сеть?](#why)
 - [Перспективы развития](#future)
+- [О команде](#team)
 
 
 # About
@@ -299,6 +300,7 @@ Showreels
 
 
 # О команде
+<a name="how_to_use"></a>
 
 Краснодарская команда разработчиков «**АК**». Состав;
 
