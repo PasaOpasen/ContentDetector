@@ -3,6 +3,8 @@
 
 Detect hard/soft skills from resumes in Russian.
 
+[**Ссылка на видео**](https://www.youtube.com/watch?v=Q5VASibVrlI&feature=youtu.be)
+
 - [About](#about)
 - [Как этим пользоваться](#how_to_use)
 - [Как это работает](#how_it_works)
