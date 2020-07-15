@@ -18,6 +18,7 @@ Detect hard/soft skills from resumes in Russian.
 - [Перспективы развития](#future)
 - [О команде](#team)
 
+![1](https://github.com/PasaOpasen/ContentDetector/blob/master/images/diplom%201.png)
 
 # About
 
